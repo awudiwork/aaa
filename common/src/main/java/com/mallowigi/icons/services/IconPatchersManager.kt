@@ -60,14 +60,15 @@ class IconPatchersManager {
   }
 
   /**
-   * 刷新已显示的文件图标。
+   * 按当前设置更新图标补丁器，并刷新已显示的文件图标。
    *
    * 不能使用 `FileTypeManagerEx.fireFileTypesChanged()`：平台会把文件类型变更当作项目根变更处理，
-   * 触发所有打开项目的全量扫描/重新索引。图标变化只需清空图标缓存并刷新界面。
-   * 项目视图由调用方通过 `refreshOpenedProjects()` 刷新。
+   * 触发所有打开项目的全量扫描/重新索引。旧实现借该事件间接触发 [updateIcons]，这里改为直接调用，
+   * 否则 UI/PSI/文件图标等开关在重启前不会生效。项目视图由调用方通过 `refreshOpenedProjects()` 刷新。
    */
   fun updateFileIcons() {
     UIUtil.invokeLaterIfNeeded {
+      updateIcons()
       IconDeferrer.getInstance().clearCache()
       refreshOpenEditorTabs()
       applyFilter()
