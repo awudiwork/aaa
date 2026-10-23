@@ -1,0 +1,71 @@
+# 仅构建：编译、运行测试并打包插件 zip，产物通过 Actions artifact 下载。
+# 不发布到 JetBrains Marketplace，也不签名。
+name: Build Plugin
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Build Plugin
+    runs-on: ubuntu-latest
+    steps:
+      # IDEA Ultimate + Rider 平台依赖体积较大，先腾出磁盘空间
+      - name: Free disk space
+        run: |
+          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL
+          df -h /
+
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # iconGenerator 子模块是 SVG 资源与关联配置的来源
+          submodules: true
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: zulu
+          java-version: '25'
+
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      # processResources 会执行 `npm run svgo` 生成图标资源，依赖 node_modules 中的 svgo
+      - name: Install JS dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Test and build plugin
+        run: ./gradlew test buildPlugin --no-daemon --stacktrace
+
+      - name: Upload plugin zip
+        uses: actions/upload-artifact@v4
+        with:
+          name: plugin-zip
+          path: build/distributions/*.zip
+          if-no-files-found: error
+
+      - name: Upload test reports
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-reports
+          path: '**/build/reports/tests/'
+          if-no-files-found: ignore

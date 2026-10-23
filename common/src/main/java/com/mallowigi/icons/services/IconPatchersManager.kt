@@ -25,12 +25,14 @@
 
 package com.mallowigi.icons.services
 
-import com.intellij.openapi.application.ApplicationManager
 import com.intellij.openapi.components.Service
 import com.intellij.openapi.components.service
-import com.intellij.openapi.fileTypes.ex.FileTypeManagerEx
+import com.intellij.openapi.fileEditor.FileEditorManager
+import com.intellij.openapi.project.Project
+import com.intellij.openapi.project.ProjectManager
 import com.intellij.openapi.util.IconLoader
 import com.intellij.openapi.util.IconPathPatcher
+import com.intellij.ui.IconDeferrer
 import com.intellij.util.ui.JBUI
 import com.intellij.util.ui.UIUtil
 import com.mallowigi.config.AtomSettingsConfig
@@ -57,13 +59,29 @@ class IconPatchersManager {
     installFileIconsPatchers(atomFileIconsConfig.isEnabledIcons)
   }
 
-  /** Update all trees. */
+  /**
+   * 刷新已显示的文件图标。
+   *
+   * 不能使用 `FileTypeManagerEx.fireFileTypesChanged()`：平台会把文件类型变更当作项目根变更处理，
+   * 触发所有打开项目的全量扫描/重新索引。图标变化只需清空图标缓存并刷新界面。
+   * 项目视图由调用方通过 `refreshOpenedProjects()` 刷新。
+   */
   fun updateFileIcons() {
     UIUtil.invokeLaterIfNeeded {
-      val app = ApplicationManager.getApplication()
-      app.runWriteAction { FileTypeManagerEx.getInstanceEx().fireFileTypesChanged() }
+      IconDeferrer.getInstance().clearCache()
+      refreshOpenEditorTabs()
       applyFilter()
     }
+  }
+
+  /** 刷新所有打开项目中编辑器标签页的图标与标题。 */
+  private fun refreshOpenEditorTabs() {
+    ProjectManager.getInstance().openProjects
+      .filterNot(Project::isDisposed)
+      .forEach { project ->
+        val editorManager = FileEditorManager.getInstance(project)
+        editorManager.openFiles.forEach(editorManager::updateFilePresentation)
+      }
   }
 
   /** Update patchers on save. */

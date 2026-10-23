@@ -23,6 +23,8 @@
  *
  */
 
+import org.jetbrains.intellij.platform.gradle.TestFrameworkType
+
 fun properties(key: String) = providers.gradleProperty(key).get()
 fun environment(key: String) = providers.environmentVariable(key)
 fun fileContents(filePath: String) = providers.fileContents(layout.projectDirectory.file(filePath)).asText
@@ -67,11 +69,16 @@ dependencies {
     plugins(
       "com.jetbrains.php:${pluginsVersion}"
     )
+
+    testFramework(TestFrameworkType.Platform)
   }
 
   implementation("org.javassist:javassist:3.31.0-GA")
   implementation("com.fasterxml:aalto-xml:1.3.3")
   implementation("com.thoughtworks.xstream:xstream:1.4.21")
+
+  testImplementation("junit:junit:4.13.2")
+  testImplementation("org.opentest4j:opentest4j:1.3.0")
 }
 
 tasks {

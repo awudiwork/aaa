@@ -29,6 +29,7 @@ import com.intellij.openapi.application.ApplicationManager
 import com.intellij.openapi.components.*
 import com.intellij.util.xmlb.XmlSerializerUtil
 import com.intellij.util.xmlb.annotations.Property
+import com.mallowigi.config.StateReloadPolicy
 import com.mallowigi.config.listeners.AtomSelectNotifier
 import com.mallowigi.icons.associations.Association
 import com.mallowigi.icons.associations.SelectedAssociations
@@ -146,14 +147,19 @@ class AtomSelectConfig : PersistentStateComponent<AtomSelectConfig> {
 
   /** Load state from XML. */
   override fun loadState(state: AtomSelectConfig) {
-    val changed = state != this
+    // 必须在 copyBean 之前比较，否则当前状态已被覆盖
+    val shouldNotify = StateReloadPolicy.shouldNotify(isInitialLoad = firstRun, current = this, loaded = state)
     XmlSerializerUtil.copyBean(state, this)
-
-    if (changed && !firstRun) {
-      ApplicationManager.getApplication().invokeAndWait { fireChanged() }
-    }
     firstRun = false
     init()
+
+    // fireChanged 内部已经 invokeLater，这里无需再 invokeAndWait 阻塞调用线程
+    if (shouldNotify) fireChanged()
+  }
+
+  /** 没有已持久化的状态时，初始化同样视为完成，后续的 loadState 才是真正的重新加载。 */
+  override fun noStateLoaded() {
+    firstRun = false
   }
 
   private fun fireChanged() {

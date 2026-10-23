@@ -30,6 +30,7 @@ import com.intellij.openapi.components.*
 import com.intellij.openapi.project.Project
 import com.intellij.util.xmlb.XmlSerializerUtil
 import com.intellij.util.xmlb.annotations.Property
+import com.mallowigi.config.StateReloadPolicy
 import com.mallowigi.config.listeners.AtomSelectNotifier
 import com.mallowigi.icons.associations.Association
 import com.mallowigi.icons.associations.Associations
@@ -45,6 +46,9 @@ import java.util.*
 )
 @Service(Service.Level.PROJECT)
 class AtomProjectSelectConfig : PersistentStateComponent<AtomProjectSelectConfig> {
+
+  /** 是否已完成首次状态加载；仅内存态，不参与持久化。 */
+  private var stateLoaded: Boolean = false
 
   /** List of user file [Association]s. */
   @Property
@@ -145,13 +149,20 @@ class AtomProjectSelectConfig : PersistentStateComponent<AtomProjectSelectConfig
 
   /** Load state from XML. */
   override fun loadState(state: AtomProjectSelectConfig) {
-    val changed = state != this
+    // 首次加载（打开项目）不广播：旧实现在此无条件广播，导致每次打开项目都触发全量重新扫描
+    val shouldNotify = StateReloadPolicy.shouldNotify(isInitialLoad = !stateLoaded, current = this, loaded = state)
     XmlSerializerUtil.copyBean(state, this)
+    stateLoaded = true
+    init()
 
-    if (changed) {
+    if (shouldNotify) {
       ApplicationManager.getApplication().invokeLater { fireChanged() }
     }
-    init()
+  }
+
+  /** 项目没有已持久化的状态时，初始化同样视为完成。 */
+  override fun noStateLoaded() {
+    stateLoaded = true
   }
 
   private fun init() {
