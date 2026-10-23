@@ -32,22 +32,10 @@ import org.junit.Assert.assertTrue
 import org.junit.Test
 
 /**
- * 测试用的最小持久化状态。
- *
- * 放在顶层而非嵌套在测试类内：嵌套类名 `StateReloadPolicyTest$SampleState` 会被测试扫描当作测试类执行。
- * 使用 internal（JVM 层面为 public），保证 XmlSerializer 能反射访问其属性。
+ * 状态样本直接使用生产代码中的 [SelectedAssociations]，不在测试源集中声明辅助状态类：
+ * 平台测试运行器会把测试输出目录里的 public 类都当作测试类执行，没有 @Test 方法的辅助类会报 InvalidTestClassError。
  */
-internal class SampleState {
-  var name: String = ""
-  var items: MutableList<String> = mutableListOf()
-}
-
 class StateReloadPolicyTest {
-
-  private fun sampleState(name: String, vararg items: String) = SampleState().apply {
-    this.name = name
-    this.items = items.toMutableList()
-  }
 
   private fun regexAssociation(name: String, pattern: String) = RegexAssociation().apply {
     this.name = name
@@ -62,24 +50,24 @@ class StateReloadPolicyTest {
 
   @Test
   fun `首次加载即使内容不同也不广播`() {
-    val current = sampleState("default")
-    val loaded = sampleState("persisted", "a", "b")
+    val current = selectedFileAssociations()
+    val loaded = selectedFileAssociations(regexAssociation(name = "Foo", pattern = "foo"))
 
     assertFalse(StateReloadPolicy.shouldNotify(isInitialLoad = true, current = current, loaded = loaded))
   }
 
   @Test
   fun `重新加载且内容相同则不广播`() {
-    val current = sampleState("same", "a", "b")
-    val loaded = sampleState("same", "a", "b")
+    val current = selectedFileAssociations(regexAssociation(name = "Foo", pattern = "foo"))
+    val loaded = selectedFileAssociations(regexAssociation(name = "Foo", pattern = "foo"))
 
     assertFalse(StateReloadPolicy.shouldNotify(isInitialLoad = false, current = current, loaded = loaded))
   }
 
   @Test
   fun `重新加载且内容不同则广播`() {
-    val current = sampleState("same", "a")
-    val loaded = sampleState("same", "a", "b")
+    val current = selectedFileAssociations()
+    val loaded = selectedFileAssociations(regexAssociation(name = "Foo", pattern = "foo"))
 
     assertTrue(StateReloadPolicy.shouldNotify(isInitialLoad = false, current = current, loaded = loaded))
   }
