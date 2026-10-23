@@ -1,0 +1,3 @@
+[submodule "iconGenerator"]
+	path = iconGenerator
+	url = https://github.com/AtomMaterialUI/iconGenerator.git

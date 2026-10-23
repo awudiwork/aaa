@@ -1,0 +1,102 @@
+/*
+ * The MIT License (MIT)
+ *
+ * Copyright (c) 2015-2023 Elior "Mallowigi" Boukhobza
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ *
+ */
+package com.mallowigi.icons.associations
+
+import com.intellij.openapi.diagnostic.thisLogger
+import com.mallowigi.models.FileInfo
+import com.mallowigi.utils.ICON_PLUGINS
+import com.mallowigi.utils.isPluginEnabled
+import org.jetbrains.annotations.NonNls
+import java.io.Serializable
+
+/** Represents a serialized collection of [Associations][Association]. */
+abstract class Associations : Serializable {
+
+  /** Ignored Associations. */
+  open val ignoredAssociations: Set<String> = emptySet()
+
+  /**
+   * Find the [Association] which matches the file info
+   *
+   * @param fileInfo the file information
+   * @param includeIgnored whether to include ignored associations
+   * @return the [Association] if found
+   */
+  fun findAssociation(fileInfo: FileInfo, includeIgnored: Boolean = false): Association? {
+    // First check in custom assocs
+    val matching: Association = findMatchingAssociation(fileInfo) ?: return null
+
+    when {
+      // Specific plugin handling
+      IMAGE_TYPES.contains(matching.name)                            -> try {
+        // If those plugins are installed, let them handle the icon
+        if (ICON_PLUGINS.any { isPluginEnabled(it) }) return null
+      } catch (e: RuntimeException) {
+        thisLogger().error(e)
+      }
+      // Other ignores
+      !includeIgnored && ignoredAssociations.contains(matching.name) -> return null
+    }
+    return matching
+  }
+
+  /**
+   * Find association by name
+   *
+   * @param assocName
+   */
+  abstract fun findAssociationByName(assocName: String): Association?
+
+  /**
+   * Look for a matching [Association]
+   *
+   * @param file file information
+   * @return [Association] if found
+   */
+  abstract fun findMatchingAssociation(file: FileInfo): Association?
+
+  /**
+   * Get the parsed [associations][Association]
+   *
+   * @return list of [associations][Association]
+   */
+  abstract fun getTheAssociations(): List<Association>
+
+  companion object {
+    @NonNls
+    private val IMAGE_TYPES: Set<String> = setOf(
+      "Images",
+      "SVG",
+      "SVG Dark",
+      "Images (PNG)",
+      "Images (JPG)",
+      "Images (BMP)",
+      "Images (GIF)",
+      "Icons"
+    )
+
+  }
+
+}

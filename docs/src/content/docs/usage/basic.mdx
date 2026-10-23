@@ -1,0 +1,80 @@
+---
+title: Basic Usage
+description: Learn how to use the Atom Material Icons plugin and access its features.
+---
+
+import { Aside } from "@astrojs/starlight/components";
+import ImageWrapper from "../../../components/ImageWrapper.astro";
+
+## Getting Started
+
+Once installed, the plugin automatically replaces standard file and folder icons with vibrant, context-aware icons based on file extensions,
+frameworks, and specific naming conventions.
+
+While the plugin works out of the box with sensible defaults, it offers extensive customization options to suit your workflow.
+
+## Accessing Settings
+
+To customize the plugin, navigate to the settings:
+
+**Path**: `Settings/Preferences → Appearance & Behavior → Atom Material Icons`
+
+**Keyboard Shortcuts**:
+
+- **Windows/Linux**: `Ctrl+Alt+S`, then search for "Atom Material"
+- **macOS**: `Cmd+,`, then search for "Atom Material"
+
+<Aside type="tip">
+  You can also quickly find these settings by typing "Atom Material" into the IDE's search bar
+  (`Shift+Shift`).
+</Aside>
+
+## Main Features Overview
+
+### File Icons
+
+The plugin automatically assigns icons based on:
+
+- **File extensions**: `.js`, `.ts`, `.py`, `.java`, etc.
+- **Frameworks**: Rails models, Next.js pages, NestJS controllers, etc.
+- **Build Tools & Packages**: `package.json`, `webpack.config.js`, `build.gradle`, etc.
+- **Special Use Cases**: `README.md`, `.gitignore`, `_config.yml`, etc.
+- **Custom Associations**: Define your own file-to-icon mappings in the settings.
+
+### Folder Icons
+
+Contextual folder icons are applied based on:
+
+- **Common patterns**: `src`, `docs`, `test`, `assets`, `components`
+- **Framework-specific folders**: `node_modules`, `.git`, `.vscode`, `dist`
+- **Custom Associations**: Define your own folder-to-icon mappings in the settings.
+
+Here's how icons appear in the project explorer and editor tabs:
+
+import withAllBasic from "../../../assets/screens/withAll.png";
+
+<ImageWrapper
+src={withAllBasic}
+alt="Atom Material Icons"
+title="Atom Material Icons"
+/>
+
+<Aside type="tip">
+  For a complete list of supported File and Folder Associations, click [here](/icons).
+</Aside>
+
+### UI Icons
+
+The plugin also enhances the IDE's interface by replacing standard UI icons:
+
+- **Toolbar Icons**: Action buttons and tool window icons.
+- **Gutter Icons**: Debugger, version control, and error indicators.
+- **PSI Icons**: Code structure elements such as classes, methods, and variables.
+
+---
+
+## What's Next?
+
+Now that you understand the basics, explore more advanced features:
+
+- [Configuration](/usage/configuration) - Detailed settings and options

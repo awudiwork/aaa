@@ -1,0 +1,51 @@
+---
+title: Atom Material Icons
+description: Make your IDE more vibrant with beautiful Material Icons
+template: splash
+hero:
+  tagline: Make your IDE more vibrant with beautiful Material Icons
+  image:
+    alt: Atom Material Icons logo
+    file: /src/assets/logo.svg
+  actions:
+    - text: Get Started
+      link: /installation/
+      icon: right-arrow
+      variant: primary
+    - text: View on GitHub
+      link: https://github.com/AtomMaterialUI/a-file-icon-idea
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid } from "@astrojs/starlight/components";
+import Plugins from "../../pages/plugins.astro";
+import Credits from "../../pages/credits.astro";
+
+<section class="section">
+  <h3 class="section-title">Features</h3>
+
+<CardGrid>
+  <Card title="🗂️ File & Folder Icons" icon="document">
+    Over 1000+ beautifully crafted icons for files and directories based on extensions, frameworks,
+    and patterns.
+  </Card>
+  <Card title="🎯 UI Icons" icon="laptop">
+    Replace the IDE's UI Icons with vibrant and colorful Material Icons.
+  </Card>
+  <Card title="🎨 Customizable" icon="pencil">
+    Monochrome/Saturation filters, custom size, accent colors, and arrow styles to match your
+    preference.
+  </Card>
+  <Card title="⚙️ Extensible" icon="setting">
+    Add your own Associations for Files, Folders, and even PSI icons.
+  </Card>
+</CardGrid>
+
+</section>
+
+<Plugins />
+
+<hr />
+
+<Credits />

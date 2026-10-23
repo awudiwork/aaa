@@ -1,0 +1,28 @@
+<!--
+  - The MIT License (MIT)
+  -
+  - Copyright (c) 2015-2024 Elior "Mallowigi" Boukhobza
+  -
+  - Permission is hereby granted, free of charge, to any person obtaining a copy
+  - of this software and associated documentation files (the "Software"), to deal
+  - in the Software without restriction, including without limitation the rights
+  - to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  - copies of the Software, and to permit persons to whom the Software is
+  - furnished to do so, subject to the following conditions:
+  -
+  - The above copyright notice and this permission notice shall be included in all
+  - copies or substantial portions of the Software.
+  -
+  - THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  - IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  - FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  - AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  - LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  - OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  - SOFTWARE.
+  -->
+
+<svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px" fill="#EF5350">
+  <path
+    d="M423-257 257-423q-12-12-18-27t-6-30q0-15 6-30t18-27l166-166q12-12 27-18t30-6q15 0 30 6t27 18l166 166q12 12 18 27t6 30q0 15-6 30t-18 27L537-257q-12 12-27 18t-30 6q-15 0-30-6t-27-18Zm57-57 166-166-166-166-166 166 166 166Zm0-166Z"/>
+</svg>

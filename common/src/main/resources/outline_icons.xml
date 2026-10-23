@@ -1,0 +1,3623 @@
+<!--
+  ~ The MIT License (MIT)
+  ~
+  ~ Copyright (c) 2015-2024 Elior "Mallowigi" Boukhobza
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+  ~ of this software and associated documentation files (the "Software"), to deal
+  ~ in the Software without restriction, including without limitation the rights
+  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  ~ copies of the Software, and to permit persons to whom the Software is
+  ~ furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all
+  ~ copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  ~ SOFTWARE.
+  -->
+
+<root>
+  <iconReplacement icon="/outline/123.svg">
+    <replacePath path="/icons/expui/table/pagination.svg"/>
+    <replacePath path="/icons/pagination.svg"/>
+    <replacePath path="/icons/table/pagination.svg"/>
+    <replacePath path="/modules/output.svg"/>
+    <replacePath path="/table/pagination.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/abc.svg">
+    <replacePath path="/icons/expui/objectBrowser/abbreviatePackageNames.svg"/>
+    <replacePath path="/objectBrowser/abbreviatePackageNames.svg"/>
+    <replacePath path="/rider/unitTesting/abbreviatePackageNames.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/add.svg">
+    <replacePath path="/actions/addFile.svg"/>
+    <replacePath path="/addClause.svg"/>
+    <replacePath path="/fileTypes/addAny.svg"/>
+    <replacePath path="/general/add.svg"/>
+    <replacePath path="/general/addJdk.svg"/>
+    <replacePath path="/general/inlineAdd.svg"/>
+    <replacePath path="/general/inlineAddHover.svg"/>
+    <replacePath path="/hierarchy/methodDefined.svg"/>
+    <replacePath path="/icons/add.svg"/>
+    <replacePath path="/icons/add_sdk.svg"/>
+    <replacePath path="/icons/com/jetbrains/addJupyterConnection.svg"/>
+    <replacePath path="/icons/expui/actions/addFile.svg"/>
+    <replacePath path="/icons/expui/bookmarks/addBookmarksList.svg"/>
+    <replacePath path="/icons/expui/fileTypes/addAny.svg"/>
+    <replacePath path="/icons/expui/general/add.svg"/>
+    <replacePath path="/icons/expui/inline/inlineAdd.svg"/>
+    <replacePath path="/icons/expui/inline/inlineAddHover.svg"/>
+    <replacePath path="/icons/expui/rails/addAny.svg"/>
+    <replacePath path="/icons/rails/addAny.svg"/>
+    <replacePath path="/inline/inlineAdd.svg"/>
+    <replacePath path="/inline/inlineAddHover.svg"/>
+    <replacePath path="/modules/addContentEntry.svg"/>
+    <replacePath path="/toolbar/addSlot.svg"/>
+    <replacePath path="/toolbarDecorator/add.svg"/>
+    <replacePath path="/toolbarDecorator/mac/add.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/AddMulticaret.svg">
+    <replacePath path="/actions/AddMulticaret.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/actualSize.svg">
+    <replacePath path="/general/actualZoom.svg"/>
+    <replacePath path="/graph/actualZoom.svg"/>
+    <replacePath path="/icons/expui/general/actualZoom.svg"/>
+    <replacePath path="/icons/expui/image/actualZoom.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/aiAssistant.svg">
+    <replacePath path="/icons/expui/toolWindowChat.svg"/>
+    <replacePath path="/icons/expui/toolwindows/aiAssistant.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/aiAssistant@20x20.svg">
+    <replacePath path="/icons/expui/toolWindowChat@20x20.svg"/>
+    <replacePath path="/icons/expui/toolwindows/aiAssistant@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/alert.svg">
+    <replacePath path="/icons/expui/toolwindows/problems.svg"/>
+    <replacePath path="/javaee/cdi/gutte/interceptors.svg"/>
+    <replacePath path="/toolwindows/errorEvents.svg"/>
+    <replacePath path="/toolwindows/toolWindowProblems.svg"/>
+    <replacePath path="/toolwindows/toolWindowProblemsEmpty.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/alert@20x20.svg">
+    <replacePath path="/icons/expui/toolwindows/problems@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/allLeft.svg">
+    <replacePath path="/actions/allLeft.svg"/>
+    <replacePath path="/actions/play_first.svg"/>
+    <replacePath path="/diff/applyNotConflictsRight.svg"/>
+    <replacePath path="/diff/arrow.svg"/>
+    <replacePath path="/duplicates/sendToTheLeft.svg"/>
+    <replacePath path="/duplicates/sendToTheLeftGrayed.svg"/>
+    <replacePath path="/icons/expui/actions/playFirst.svg"/>
+    <replacePath path="/icons/expui/diff/applyNotConflictsRight.svg"/>
+    <replacePath path="/icons/expui/diff/arrow.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/allRight.svg">
+    <replacePath path="/actions/allRight.svg"/>
+    <replacePath path="/actions/play_last.svg"/>
+    <replacePath path="/diff/applyNotConflictsLeft.svg"/>
+    <replacePath path="/diff/arrowRight.svg"/>
+    <replacePath path="/duplicates/sendToTheRight.svg"/>
+    <replacePath path="/duplicates/sendToTheRightGrayed.svg"/>
+    <replacePath path="/icons/expui/actions/playLast.svg"/>
+    <replacePath path="/icons/expui/diff/applyNotConflictsLeft.svg"/>
+    <replacePath path="/icons/expui/diff/arrowRight.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/android.svg">
+    <replacePath path="/icons/expui/toolwindows/profilerAndroid.svg"/>
+    <replacePath path="/icons/expui/toolwindows/toolWindowProfilerAndroid.svg"/>
+    <replacePath path="/nodes/android.svg"/>
+    <replacePath path="/toolwindows/toolWindowProfilerAndroid.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/android@20x20.svg">
+    <replacePath path="/icons/expui/toolwindows/profilerAndroid@20x20.svg"/>
+    <replacePath path="/icons/expui/toolwindows/toolWindowProfilerAndroid@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/annotation.svg">
+    <replacePath path="/modules/extAnnotation.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/annotation@14x14.svg">
+    <replacePath path="/gutter/extAnnotation.svg"/>
+    <replacePath path="/icons/expui/gutter/extAnnotation.svg"/>
+    <replacePath path="/icons/expui/gutter/extAnnotation@14x14.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/ant.svg">
+    <replacePath path="/icons/ant.svg"/>
+    <replacePath path="/icons/expui/ant.svg"/>
+    <replacePath path="/icons/expui/toolwindows/ant.svg"/>
+    <replacePath path="/toolwindows/toolWindowAnt.svg"/>
+    <replacePath path="/icons/groovy/ant_task.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/ant@20x20.svg">
+    <replacePath path="/icons/expui/toolwindows/ant@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/applyNotConflicts@14x14.svg">
+    <replacePath path="/gutter/diff.svg"/>
+    <replacePath path="/icons/gutter/diff.svg"/>
+    <replacePath path="/icons/expui/gutter/diff.svg"/>
+    <replacePath path="/icons/expui/gutter/diff@14x14.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/applyNotConflicts.svg">
+    <replacePath path="/diff/applyNotConflicts.svg"/>
+    <replacePath path="/icons/expui/diff/applyNotConflicts.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/app.svg">
+    <replacePath path="/icons/expui/runConfigurations/application.svg"/>
+    <replacePath path="/runConfigurations/applet.svg"/>
+    <replacePath path="/runConfigurations/application.svg"/>
+    <replacePath path="/icons/softwareFramework.svg"/>
+    <replacePath path="/rider/runConfigurations/application.svg"/>
+    <replacePath path="/runConfigurations/application.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/apple.svg">
+    <replacePath path="/nodes/macOS.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/array.svg">
+    <replacePath path="/debugger/db_array.svg"/>
+    <replacePath path="/icons/expui/debugger/dbArray.svg"/>
+    <replacePath path="/json/array.svg"/>
+    <replacePath path="/json/property_brackets.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/arrowLeftDown.svg">
+    <replacePath path="/diff/arrowLeftDown.svg"/>
+    <replacePath path="/icons/expui/diff/arrowLeftDown.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/arrowRightDown.svg">
+    <replacePath path="/diff/arrowRightDown.svg"/>
+    <replacePath path="/icons/expui/diff/arrowRightDown.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/asterisk.svg">
+    <replacePath path="/icons/expui/fileTypes/changedFiles.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/autoscroll.svg">
+    <replacePath path="/general/locate.svg"/>
+    <replacePath path="/general/locateHover.svg"/>
+    <replacePath path="/icons/expui/general/locate.svg"/>
+    <replacePath path="/icons/expui/general/locateHover.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/autoscrollFromSource.svg">
+    <replacePath path="/general/autoscrollFromSource.svg"/>
+    <replacePath path="/icons/expui/general/autoscrollFromSource.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/autoscrollToSource.svg">
+    <replacePath path="/general/autoscrollToSource.svg"/>
+    <replacePath path="/icons/expui/general/autoscrollToSource.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/back.svg">
+    <replacePath path="/actions/back.svg"/>
+    <replacePath path="/actions/findBackward.svg"/>
+    <replacePath path="/actions/play_back.svg"/>
+    <replacePath path="/actions/prevfile.svg"/>
+    <replacePath path="/icons/back.svg"/>
+    <replacePath path="/icons/expui/actions/playBack.svg"/>
+    <replacePath path="/icons/expui/general/left.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/backspace.svg">
+    <replacePath path="/icons/delete.svg"/>
+    <replacePath path="/icons/expui/delete.svg"/>
+    <replacePath path="/icons/org/jetbrains/plugins/github/delete.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/backspaceHovered.svg">
+    <replacePath path="/icons/deleteHovered.svg"/>
+    <replacePath path="/icons/expui/deleteHovered.svg"/>
+    <replacePath path="/icons/org/jetbrains/plugins/github/deleteHovered.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/balloon.svg">
+    <replacePath path="/general/balloon.svg"/>
+    <replacePath path="/general/editItemInSection.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/bandaid.svg">
+    <replacePath path="/icons/expui/fileTypes/patch.svg"/>
+    <replacePath path="/icons/expui/vcs/patch.svg"/>
+    <replacePath path="/vcs/patch_applied.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/bean.svg">
+    <replacePath path="/icons/ejbToolWindow.svg"/>
+    <replacePath path="/icons/expui/toolWindowEJB.svg"/>
+    <replacePath path="/javaee/cdi/bean.svg"/>
+    <replacePath path="/javaee/cdi/cdi.svg"/>
+    <replacePath path="/javaee/cdi/cdiToolWindow.svg"/>
+    <replacePath path="/javaee/cdi/gutter/bean.svg"/>
+    <replacePath path="/javaee/cdi/gutter/cdi.svg"/>
+    <replacePath path="/javaee/cdi/newui/cdi.svg"/>
+    <replacePath path="/javaee/cdi/newui/cdi@14x14.svg"/>
+    <replacePath path="/javaee/cdi/newui/cdiToolWindow.svg"/>
+    <replacePath path="/javaee/ejb_artifact.svg"/>
+    <replacePath path="/javaee/javaee/ejb.svg"/>
+    <replacePath path="/javaee/javaee/entityBean.svg"/>
+    <replacePath path="/javaee/javaee/newui/sessionBean.svg"/>
+    <replacePath path="/javaee/javaee/sessionBean.svg"/>
+    <replacePath path="/javaee/jsf/managedBean.svg"/>
+    <replacePath path="/javaee/jsf/newui/managedBean.svg"/>
+    <replacePath path="/javaee/newui/ejbArtifact.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/bean@20x20.svg">
+    <replacePath path="/javaee/cdi/newui/cdiToolWindow@20x20.svg"/>
+    <replacePath path="/icons/expui/toolWindowEJB@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/bell.svg">
+    <replacePath path="/ide/emptyFatalError.svg"/>
+    <replacePath path="/ide/fatalError-read.svg"/>
+    <replacePath path="/toolwindows/problemsEmpty.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/bellAlarm.svg">
+    <replacePath path="/ide/fatalError.svg"/>
+    <replacePath path="/toolwindows/problems.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/bigdata.svg">
+    <replacePath path="/icons/expui/toolWindowBigData.svg"/>
+    <replacePath path="/icons/expui/toolwindows/bigData.svg"/>
+    <replacePath path="/icons/toolWindowBigData.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/bigdata@20x20.svg">
+    <replacePath path="/icons/expui/toolWindowBigData@20x20.svg"/>
+    <replacePath path="/icons/expui/toolwindows/bigData@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/bookmark.svg">
+    <replacePath path="/icons/expui/bookmarks/bookmark.svg"/>
+    <replacePath path="/pinToTop/pinnedItem.svg"/>
+    <replacePath path="/nodes/bookmark.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/bookmark@14x14.svg">
+    <replacePath path="/icons/expui/gutter/bookmark.svg"/>
+    <replacePath path="/gutter/bookmark.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/bookmarks.svg">
+    <replacePath path="/icons/bookmarks.svg"/>
+    <replacePath path="/icons/expui/bookmarks.svg"/>
+    <replacePath path="/icons/expui/bookmarks/bookmarksList.svg"/>
+    <replacePath path="/icons/expui/toolwindows/bookmarks.svg"/>
+    <replacePath path="/nodes/bookmarkGroup.svg"/>
+    <replacePath path="/nodes/bookmarksGroup.svg"/>
+    <replacePath path="/toolwindows/toolWindowBookmarks.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/bookmarks@20x20.svg">
+    <replacePath path="/icons/expui/toolwindows/bookmarks@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/bookmarkAdd.svg">
+    <replacePath path="/actions/addToDictionary.svg"/>
+    <replacePath path="/debugger/addToWatch.svg"/>
+    <replacePath path="/general/addFavoritesList.svg"/>
+    <replacePath path="/icons/expui/debugger/addToWatch.svg"/>
+    <replacePath path="/icons/expui/run/addToWatch.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/bookmarkRemove.svg">
+    <replacePath path="/pinToTop/unpinnedItem.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/bottomLeft.svg">
+    <replacePath path="/icons/expui/actions/moveToBottomLeft.svg"/>
+    <replacePath path="/icons/expui/actions/moveToLeftBottom.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/bottomRight.svg">
+    <replacePath path="/icons/expui/actions/moveToBottomRight.svg"/>
+    <replacePath path="/icons/expui/actions/moveToRightBottom.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/bottomPane.svg">
+    <replacePath path="/actions/previewDetailsVertically.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/book.svg">
+    <replacePath path="/icons/expui/toolwindows/documentation.svg"/>
+    <replacePath path="/toolwindows/documentation.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/book@20x20.svg">
+    <replacePath path="/icons/expui/toolwindows/documentation@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/box.svg">
+    <replacePath path="/icons/expui/toolwindows/build.svg"/>
+    <replacePath path="/javaee/javaee/ejb-jar_xml.svg"/>
+    <replacePath path="/javaee/javaee/newui/ejb-jarXml.svg"/>
+    <replacePath path="/nodes/jarDirectory.svg"/>
+    <replacePath path="/nodes/ppJar.svg"/>
+    <replacePath path="/toolwindows/toolWindowBuild.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/box@20x20.svg">
+    <replacePath path="/icons/expui/toolwindows/build@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/brush.svg">
+    <replacePath path="/images/EditExternally.svg"/>
+    <replacePath path="/vcs/patch_applied.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/build.svg">
+    <replacePath path="/actions/compile.svg"/>
+    <replacePath path="/icons/build.svg"/>
+    <replacePath path="/icons/expui/build/build.svg"/>
+    <replacePath path="/icons/expui/run/widget/build.svg"/>
+    <replacePath path="/javaee/javaee/buildOnFrameDeactivation.svg"/>
+    <replacePath path="/javaee/javaee/newui/buildOnFrameDeactivation.svg"/>
+    <replacePath path="/toolwindows/toolWindowInternal.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/bulb.svg">
+    <replacePath path="/actions/quickfixBulb.svg"/>
+    <replacePath path="/general/tip.svg"/>
+    <replacePath path="/icons/expui/codeInsight/quickfixBulb.svg"/>
+    <replacePath path="/icons/expui/editor/quickfixBulb.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/bulbOff.svg">
+    <replacePath path="/actions/quickfixOffBulb.svg"/>
+    <replacePath path="/icons/expui/codeInsight/quickfixOffBulb.svg"/>
+    <replacePath path="/icons/expui/editor/quickfixOffBulb.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/bulletList.svg">
+    <replacePath path="/actions/addList.svg"/>
+    <replacePath path="/actions/properties.svg"/>
+    <replacePath path="/icons/expui/objectBrowser/showMembers.svg"/>
+    <replacePath path="/objectBrowser/showMembers.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/calculate.svg">
+    <replacePath path="/debugger/db_evaluateNode.svg"/>
+    <replacePath path="/debugger/evaluationResult.svg"/>
+    <replacePath path="/icons/expui/debugger/evaluationResult.svg"/>
+    <replacePath path="/icons/expui/run/evaluationResult.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/callee.svg">
+    <replacePath path="/hierarchy/callee.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/caller.svg">
+    <replacePath path="/hierarchy/caller.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/callMerge.svg">
+    <replacePath path="/icons/expui/mergeCallees.svg"/>
+    <replacePath path="/icons/mergeCallees.svg"/>
+    <replacePath path="/modules/merge.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/camera.svg">
+    <replacePath path="/actions/dump.svg"/>
+    <replacePath path="/icons/expui/run/dumpThreads.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/case.svg">
+    <replacePath path="/actions/matchCase.svg"/>
+    <replacePath path="/actions/matchCaseHovered.svg"/>
+    <replacePath path="/icons/expui/inline/matchCase.svg"/>
+    <replacePath path="/icons/expui/inline/matchCaseHovered.svg"/>
+    <replacePath path="/inline/matchCase.svg"/>
+    <replacePath path="/inline/matchCaseHovered.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/caseSelected.svg">
+    <replacePath path="/actions/matchCaseSelected.svg"/>
+    <replacePath path="/icons/expui/inline/matchCaseSelected.svg"/>
+    <replacePath path="/inline/matchCaseSelected.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/casePreserve.svg">
+    <replacePath path="/actions/preserveCase.svg"/>
+    <replacePath path="/actions/preserveCaseHover.svg"/>
+    <replacePath path="/icons/expui/inline/preserveCase.svg"/>
+    <replacePath path="/icons/expui/inline/preserveCaseHover.svg"/>
+    <replacePath path="/inline/preserveCase.svg"/>
+    <replacePath path="/inline/preserveCaseHover.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/casePreserved.svg">
+    <replacePath path="/actions/preserveCaseSelected.svg"/>
+    <replacePath path="/icons/expui/inline/preserveCaseSelected.svg"/>
+    <replacePath path="/inline/preserveCaseSelected.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/changeView.svg">
+    <replacePath path="/actions/changeView.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/chart.svg">
+    <replacePath path="/icons/expui/toolwindows/analyzeDataflow.svg"/>
+    <replacePath path="/icons/expui/statisticsPanel.svg"/>
+    <replacePath path="/icons/statisticsPanel.svg"/>
+    <replacePath path="/icons/expui/toolwindows/dataflow.svg"/>
+    <replacePath path="/toolbarDecorator/analyze.svg"/>
+    <replacePath path="/toolbarDecorator/mac/analyze.svg"/>
+    <replacePath path="/toolwindows/toolWindowAnalyzeDataflow.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/chartLine.svg">
+    <replacePath path="/icons/chart/chartLine.svg"/>
+    <replacePath path="/icons/chartLine.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/chart@20x20.svg">
+    <replacePath path="/icons/expui/toolwindows/analyzeDataflow@20x20.svg"/>
+    <replacePath path="/icons/expui/toolwindows/dataflow@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/checkbox.svg">
+    <replacePath path="/darcula/checkBox.svg"/>
+    <replacePath path="/diff/gutterCheckBox.svg"/>
+    <replacePath path="/icons/expui/diff/gutterCheckBox.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/checkboxSelected.svg">
+    <replacePath path="/darcula/checkBoxSelected.svg"/>
+    <replacePath path="/diff/gutterCheckBoxSelected.svg"/>
+    <replacePath path="/icons/expui/diff/gutterCheckBoxSelected.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/checkList.svg">
+    <replacePath path="/actions/moveToAnotherChangelist.svg"/>
+    <replacePath path="/icons/changeset.svg"/>
+    <replacePath path="/icons/expui/toolwindows/changes.svg"/>
+    <replacePath path="/icons/expui/vcs/changelist.svg"/>
+    <replacePath path="/icons/expui/vcs/changes.svg"/>
+    <replacePath path="/icons/newui/changeset.svg"/>
+    <replacePath path="/vcs/changelist.svg"/>
+    <replacePath path="/vcs/changes.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/checkList@20x20.svg">
+    <replacePath path="/icons/expui/toolwindows/changes@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/CheckMulticaret.svg">
+    <replacePath path="/actions/CheckMulticaret.svg"/>
+    <replacePath path="/actions/multicaret.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/cherry.svg">
+    <replacePath path="/icons/cherryPick.svg"/>
+    <replacePath path="/icons/expui/vcs/cherryPick.svg"/>
+    <replacePath path="/icons/expui/vcs/new/cherryPick.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/chessboard.svg">
+    <replacePath path="/images/ToggleTransparencyChessboard.svg"/>
+    <replacePath path="/images/expui/chessboard.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/chevronUp.svg">
+    <replacePath path="/chooser/top.svg"/>
+    <replacePath path="/general/arrowUp.svg"/>
+    <replacePath path="/general/chevron-up.svg"/>
+    <replacePath path="/icons/expui/general/chevronUp.svg"/>
+    <replacePath path="/ide/notifications/collapse.svg"/>
+    <replacePath path="/ide/notifications/collapseHover.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/chevronDown.svg">
+    <replacePath path="/chooser/bottom.svg"/>
+    <replacePath path="/general/arrowDown.svg"/>
+    <replacePath path="/general/chevron-down.svg"/>
+    <replacePath path="/general/combo.svg"/>
+    <replacePath path="/general/combo2.svg"/>
+    <replacePath path="/general/combo3.svg"/>
+    <replacePath path="/general/comboArrow.svg"/>
+    <replacePath path="/general/comboBoxButtonArrow.svg"/>
+    <replacePath path="/general/linkDropTriangle.svg"/>
+    <replacePath path="/icons/expui/general/chevronDown.svg"/>
+    <replacePath path="/icons/expui/general/chevronDownLarge.svg"/>
+    <replacePath path="/icons/expui/general/chevronDownLargeWhite.svg"/>
+    <replacePath path="/ide/notifications/expand.svg"/>
+    <replacePath path="/ide/notifications/expandHover.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/chevronLeft.svg">
+    <replacePath path="/chooser/left.svg"/>
+    <replacePath path="/general/arrowLeft.svg"/>
+    <replacePath path="/general/chevron-left.svg"/>
+    <replacePath path="/icons/expui/general/chevronLeft.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/chevronRight.svg">
+    <replacePath path="/chooser/right.svg"/>
+    <replacePath path="/general/arrowRight.svg"/>
+    <replacePath path="/general/chevron-right.svg"/>
+    <replacePath path="/icons/expui/general/chevronRight.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/chip.svg">
+    <replacePath path="/actions/memoryView/active.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/clean.svg">
+    <replacePath path="/icons/expui/actions/clearCash.svg"/>
+    <replacePath path="/icons/cleanPlatformIO.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/clipboard.svg">
+    <replacePath path="/actions/diffWithClipboard.svg"/>
+    <replacePath path="/general/copyHovered.svg"/>
+    <replacePath path="/icons/expui/actions/diffWithClipboard.svg"/>
+    <replacePath path="/icons/expui/general/copyHovered.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/close.svg">
+    <replacePath path="/actions/cancel.svg"/>
+    <replacePath path="/actions/delete.svg"/>
+    <replacePath path="/diff/remove.svg"/>
+    <replacePath path="/hierarchy/methodNotDefined.svg"/>
+    <replacePath path="/icons/expui/diff/remove.svg"/>
+    <replacePath path="/icons/expui/windows/close.svg"/>
+    <replacePath path="/icons/expui/windows/closeActive.svg"/>
+    <replacePath path="/icons/expui/windows/closeHover.svg"/>
+    <replacePath path="/icons/expui/windows/closeInactive.svg"/>
+    <replacePath path="/icons/expui/windows/closeSmall.svg"/>
+    <replacePath path="/icons/expui/windows/closeSmallHover.svg"/>
+    <replacePath path="/ide/notifications/close.svg"/>
+    <replacePath path="/linux/close.svg"/>
+    <replacePath path="/linux/closeInactive.svg"/>
+    <replacePath path="/linux/closeSmall.svg"/>
+    <replacePath path="/linux/theme/gnome/close.svg"/>
+    <replacePath path="/linux/theme/gnome/closeInactive.svg"/>
+    <replacePath path="/linux/theme/gnome/closeSmall.svg"/>
+    <replacePath path="/linux/theme/kde/close.svg"/>
+    <replacePath path="/linux/theme/kde/closeInactive.svg"/>
+    <replacePath path="/linux/theme/kde/closeSmall.svg"/>
+    <replacePath path="/modules/deleteContentFolder.svg"/>
+    <replacePath path="/modules/deleteContentRoot.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/closePressed.svg">
+    <replacePath path="/icons/expui/windows/closePressed.svg"/>
+    <replacePath path="/linux/closePressed.svg"/>
+    <replacePath path="/linux/theme/gnome/closePressed.svg"/>
+    <replacePath path="/linux/theme/kde/closePressed.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/closeSmall.svg">
+    <replacePath path="/icons/expui/general/closeSmall.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/closeCircle.svg">
+    <replacePath path="/actions/clean.svg"/>
+    <replacePath path="/actions/clear.svg"/>
+    <replacePath path="/darcula/clear.svg"/>
+    <replacePath path="/general/balloonClose.svg"/>
+    <replacePath path="/icons/expui/general/close.svg"/>
+    <replacePath path="/icons/expui/general/closeSmallHovered.svg"/>
+    <replacePath path="/ide/notifications/closeHover.svg"/>
+    <replacePath path="/linux/close.svg"/>
+    <replacePath path="/linux/closeHovered.svg"/>
+    <replacePath path="/linux/theme/gnome/close.svg"/>
+    <replacePath path="/linux/theme/gnome/closeHovered.svg"/>
+    <replacePath path="/modules/deleteContentFolderRollover.svg"/>
+    <replacePath path="/modules/deleteContentRootRollover.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/cloudError.svg">
+    <replacePath path="/icons/not_connected.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/cloudSync.svg">
+    <replacePath path="/icons/io_operation.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/cloudWarn.svg">
+    <replacePath path="/icons/io_error.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/cmd.svg">
+    <replacePath path="/general/defaultKeymap.svg"/>
+    <replacePath path="/general/keyboardShortcut.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/code.svg">
+    <replacePath path="/general/layoutEditorOnly.svg"/>
+    <replacePath path="/icons/expui/general/editorOnly.svg"/>
+    <replacePath path="/icons/expui/toolwindows/toolWindowDevMode.svg"/>
+    <replacePath path="/javaee/javaee/application_xml.svg"/>
+    <replacePath path="/javaee/javaee/newui/applicationXml.svg"/>
+    <replacePath path="/javaee/javaee/newui/webXml.svg"/>
+    <replacePath path="/javaee/javaee/web_xml.svg"/>
+    <replacePath path="/modules/sources.svg"/>
+    <replacePath path="/nodes/keymapEditor.svg"/>
+    <replacePath path="/nodes/tag.svg"/>
+    <replacePath path="/toolwindows/toolWindowJsonPath.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/code@20x20.svg">
+    <replacePath path="/icons/expui/toolwindows/toolWindowDevMode@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/codeBlocks.svg">
+    <replacePath path="/actions/showCode.svg"/>
+    <replacePath path="/general/layoutEditorPreview.svg"/>
+    <replacePath path="/icons/expui/general/editorPreview.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/codeBlocksVertical.svg">
+    <replacePath path="/icons/expui/general/editorPreviewVertical.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/coffee.svg">
+    <replacePath path="/javaee/ejbClass.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/collapse.svg">
+    <replacePath path="/actions/collapseall.svg"/>
+    <replacePath path="/general/collapseComponent.svg"/>
+    <replacePath path="/general/collapseComponentHover.svg"/>
+    <replacePath path="/icons/expui/general/collapseComponent.svg"/>
+    <replacePath path="/icons/expui/inline/collapse.svg"/>
+    <replacePath path="/icons/expui/inline/collapseHover.svg"/>
+    <replacePath path="/icons/expui/windows/collapse.svg"/>
+    <replacePath path="/inline/collapse.svg"/>
+    <replacePath path="/inline/collapseHover.svg"/>
+    <replacePath path="/toolbar/collapse.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/collapseAll.svg">
+    <replacePath path="/general/collapseAll.svg"/>
+    <replacePath path="/general/collapseAllHover.svg"/>
+    <replacePath path="/icons/expui/general/collapseAll.svg"/>
+    <replacePath path="/icons/expui/objectBrowser/compactEmptyPackages.svg"/>
+    <replacePath path="/objectBrowser/compactEmptyPackages.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/commander.svg">
+    <replacePath path="/icons/expui/toolwindows/commander.svg"/>
+    <replacePath path="/toolwindows/toolWindowCommander.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/commander@20x20.svg">
+    <replacePath path="/icons/expui/toolwindows/commander@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/commit.svg">
+    <replacePath path="/icons/expui/toolwindows/commit.svg"/>
+    <replacePath path="/icons/login/featureCommit.svg"/>
+    <replacePath path="/toolwindows/toolWindowCommit.svg"/>
+    <replacePath path="/vcs/commitNode.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/commit@20x20.svg">
+    <replacePath path="/icons/expui/toolwindows/commit@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/compound.svg">
+    <replacePath path="/icons/expui/runConfigurations/compound.svg"/>
+    <replacePath path="/runConfigurations/compound.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/computer.svg">
+    <replacePath path="/actions/projectDirectory.svg"/>
+    <replacePath path="/icons/expui/actions/projectDirectory.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/connected.svg">
+    <replacePath path="/icons/connected.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/containers.svg">
+    <replacePath path="/icons/containersList_2.svg"/>
+    <replacePath path="/icons/containersList_2_grey.svg"/>
+    <replacePath path="/icons/containersList_3.svg"/>
+    <replacePath path="/icons/expui/containersList.svg"/>
+    <replacePath path="/icons/expui/containersRunning.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/contexts.svg">
+    <replacePath path="/fileTypes/contexts.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/contextsSmall.svg">
+    <replacePath path="/fileTypes/contextsModifier.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/copy.svg">
+    <replacePath path="/actions/copy.svg"/>
+    <replacePath path="/general/inlineCopy.svg"/>
+    <replacePath path="/general/inlineCopyHover.svg"/>
+    <replacePath path="/icons/copy.svg"/>
+    <replacePath path="/icons/editor_actions/Copy_exported_html_mime.svg"/>
+    <replacePath path="/icons/editor_actions/Menu_copy.svg"/>
+    <replacePath path="/icons/expui/general/copy.svg"/>
+    <replacePath path="/icons/expui/inline/copy.svg"/>
+    <replacePath path="/icons/expui/inline/copyHover.svg"/>
+    <replacePath path="/icons/expui/toolwindows/toolWindowDuplicates.svg"/>
+    <replacePath path="/inline/copy.svg"/>
+    <replacePath path="/inline/copyHover.svg"/>
+    <replacePath path="/nodes/copyOfFolder.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/copy@20x20.svg">
+    <replacePath path="/icons/expui/toolwindows/toolWindowDuplicates@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/coverage.svg">
+    <replacePath path="/icons/expui/runConfigurations/coverage.svg"/>
+    <replacePath path="/icons/expui/toolwindows/coverage.svg"/>
+    <replacePath path="/nodes/inspectionResults.svg"/>
+    <replacePath path="/toolwindows/toolWindowCoverage.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/coverage@20x20.svg">
+    <replacePath path="/icons/expui/toolwindows/coverage@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/currentLine.svg">
+    <replacePath path="/diff/currentLine.svg"/>
+    <replacePath path="/icons/expui/diff/currentLine.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/cut.svg">
+    <replacePath path="/actions/menu-cut.svg"/>
+    <replacePath path="/icons/expui/general/cut.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/cwmFollow.svg">
+    <replacePath path="/codeWithMe/cwmFollow.svg"/>
+    <replacePath path="/icons/expui/codeWithMe/cwmFollow.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/cwmFollowMe.svg">
+    <replacePath path="/codeWithMe/cwmFollowMe.svg"/>
+    <replacePath path="/icons/expui/codeWithMe/cwmFollowMe.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/cwmForceFollowMe.svg">
+    <replacePath path="/codeWithMe/cwmForceFollowMe.svg"/>
+    <replacePath path="/icons/expui/codeWithMe/cwmForceFollowMe.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/cwmFullSync.svg">
+    <replacePath path="/codeWithMe/cwmFullSync.svg"/>
+    <replacePath path="/icons/expui/codeWithMe/cwmFullSync.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/cwmInvite.svg">
+    <replacePath path="/codeWithMe/cwmInvite.svg"/>
+    <replacePath path="/icons/expui/codeWithMe/cwmInvite.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/cwmJoin.svg">
+    <replacePath path="/codeWithMe/cwmJoin.svg"/>
+    <replacePath path="/icons/expui/codeWithMe/cwmJoin.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/cwmJump.svg">
+    <replacePath path="/codeWithMe/cwmJump.svg"/>
+    <replacePath path="/icons/expui/codeWithMe/cwmJump.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/cwmKick.svg">
+    <replacePath path="/codeWithMe/cwmKick.svg"/>
+    <replacePath path="/icons/expui/codeWithMe/cwmKick.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/cwmLeaveCall.svg">
+    <replacePath path="/codeWithMe/cwmLeaveCall.svg"/>
+    <replacePath path="/icons/expui/codeWithMe/cwmLeaveCall.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/cwmPermissionFull.svg">
+    <replacePath path="/codeWithMe/cwmPermissionFull.svg"/>
+    <replacePath path="/icons/expui/codeWithMe/cwmPermissionFull.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/cwmPermissionDenied.svg">
+    <replacePath path="/codeWithMe/cwmPermissionDenied.svg"/>
+    <replacePath path="/icons/expui/codeWithMe/cwmPermissionDenied.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/cwmPermissionGranted.svg">
+    <replacePath path="/codeWithMe/cwmPermissionGranted.svg"/>
+    <replacePath path="/icons/expui/codeWithMe/cwmPermissionGranted.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/cwmUsers.svg">
+    <replacePath path="/codeWithMe/cwmUsers.svg"/>
+    <replacePath path="/codeWithMe/users.svg"/>
+    <replacePath path="/icons/expui/codeWithMe/cwmUsers.svg"/>
+    <replacePath path="/icons/expui/codeWithMe/users.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/cwmUsers@20x20.svg">
+    <replacePath path="/icons/expui/codeWithMe/cwmUsers@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/database.svg">
+    <replacePath path="/icons/database.svg"/>
+    <replacePath path="/icons/databases.svg"/>
+    <replacePath path="/icons/dbms.svg"/>
+    <replacePath path="/icons/expui/database.svg"/>
+    <replacePath path="/icons/expui/toolwindows/database.svg"/>
+    <replacePath path="/icons/toolWindowDatabase.svg"/>
+    <replacePath path="/javaee/persistenceEntity.svg"/>
+    <replacePath path="/nodes/DataSource.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/database@20x20.svg">
+    <replacePath path="/icons/expui/toolwindows/database@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/dataImport.svg">
+    <replacePath path="/javaee/dataSourceImport.svg"/>
+    <replacePath path="/javaee/dataSourceImportBig.svg"/>
+    <replacePath path="/javaee/dbSchemaImportBig.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/dataSchema.svg">
+    <replacePath path="/nodes/dataSchema.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/dataView.svg">
+    <replacePath path="/nodes/dataView.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/debug.svg">
+    <replacePath path="/actions/startDebugger.svg"/>
+    <replacePath path="/actions/startDebugger_stroke.svg"/>
+    <replacePath path="/icons/editor_actions/Debug_preview.svg"/>
+    <replacePath path="/icons/expui/run/debug.svg"/>
+    <replacePath path="/icons/expui/run/debug_stroke.svg"/>
+    <replacePath path="/icons/expui/run/widget/debug.svg"/>
+    <replacePath path="/icons/expui/toolwindows/debug.svg"/>
+    <replacePath path="/icons/logDebug.svg"/>
+    <replacePath path="/icons/recordDebug.svg"/>
+    <replacePath path="/icons/run/debugCurrent.svg"/>
+    <replacePath path="/rider/debugger/debugger.svg"/>
+    <replacePath path="/toolwindows/toolWindowDebugger.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/debug@20x20.svg">
+    <replacePath path="/icons/expui/toolwindows/debug@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/debugOff.svg">
+    <replacePath path="/general/debugDisabled.svg"/>
+    <replacePath path="/icons/expui/general/debugDisabled.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/deploy.svg">
+    <replacePath path="/icons/expui/actions/deploy.svg"/>
+    <replacePath path="/nodes/deploy.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/desktop.svg">
+    <replacePath path="/nodes/desktop.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/diagram.svg">
+    <replacePath path="/actions/diagramDiff.svg"/>
+    <replacePath path="/hierarchy/class.svg"/>
+    <replacePath path="/icons/diagramAction.svg"/>
+    <replacePath path="/icons/expui/diagramAction.svg"/>
+    <replacePath path="/icons/expui/actions/diagramDiff.svg"/>
+    <replacePath path="/icons/expui/graph/graphLayout.svg"/>
+    <replacePath path="/icons/expui/hierarchy/classHierarchy.svg"/>
+    <replacePath path="/icons/expui/toolwindows/projectDiagram.svg"/>
+    <replacePath path="/javaee/erDiagram.svg"/>
+    <replacePath path="/javaee/newui/erDiagram.svg"/>
+    <replacePath path="/rider/toolwindows/toolwindowProjectDiagram.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/diagram@20x20.svg">
+    <replacePath path="/icons/expui/toolwindows/projectDiagram@20x20.svg"/>
+    <replacePath path="/icons/expui/diagramAction@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/diff.svg">
+    <replacePath path="/actions/diff.svg"/>
+    <replacePath path="/diff/Diff.svg"/>
+    <replacePath path="/icons/expui/diff/Diff.svg"/>
+    <replacePath path="/icons/expui/vcs/diff.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/dislike.svg">
+    <replacePath path="/ide/dislike.svg"/>
+    <replacePath path="/ide/dislikeDimmed.svg"/>
+    <replacePath path="/ide/dislikeDimmed.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/dropdown.svg">
+    <replacePath path="/actions/inlayDropTriangle.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/download.svg">
+    <replacePath path="/actions/checkOut.svg"/>
+    <replacePath path="/actions/download.svg"/>
+    <replacePath path="/actions/get.svg"/>
+    <replacePath path="/general/downloadPlugin.svg"/>
+    <replacePath path="/general/getProjectfromVCS.svg"/>
+    <replacePath path="/icons/expui/general/download.svg"/>
+    <replacePath path="/icons/expui/vcs/changesUpdate@12x12.svg"/>
+    <replacePath path="/icons/expui/vcs/new/changesUpdate@12x12.svg"/>
+    <replacePath path="/icons/expui/vcs/new/incomingUpdate.svg"/>
+    <replacePath path="/icons/update.svg"/>
+    <replacePath path="/icons/expui/vcs/update.svg"/>
+    <replacePath path="/ide/notifications/ideUpdate.svg"/>
+    <replacePath path="/vcs/new/changesUpdate@12x12.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/down.svg">
+    <replacePath path="/actions/findAndShowNextMatches.svg"/>
+    <replacePath path="/actions/findAndShowNextMatchesSelected.svg"/>
+    <replacePath path="/actions/moveDown.svg"/>
+    <replacePath path="/actions/nextOccurence.svg"/>
+    <replacePath path="/icons/expui/general/down.svg"/>
+    <replacePath path="/icons/expui/general/moveDown.svg"/>
+    <replacePath path="/icons/proposalDown.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/drag.svg">
+    <replacePath path="/general/drag.svg"/>
+    <replacePath path="/icons/expui/general/drag.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/edit.svg">
+    <replacePath path="/actions/edit.svg"/>
+    <replacePath path="/codeWithMe/cwmPermissionEdit.svg"/>
+    <replacePath path="/general/inline_edit.svg"/>
+    <replacePath path="/general/inline_edit_hovered.svg"/>
+    <replacePath path="/general/modified.svg"/>
+    <replacePath path="/general/modifiedSelected.svg"/>
+    <replacePath path="/icons/expui/codeWithMe/cwmPermissionEdit.svg"/>
+    <replacePath path="/icons/expui/fileTypes/modified.svg"/>
+    <replacePath path="/icons/expui/general/edit.svg"/>
+    <replacePath path="/icons/expui/inline/inlineEdit.svg"/>
+    <replacePath path="/icons/expui/inline/inlineEditHovered.svg"/>
+    <replacePath path="/ide/incomingChangesOn.svg"/>
+    <replacePath path="/ide/outgoingChangesOn.svg"/>
+    <replacePath path="/inline/inlineEdit.svg"/>
+    <replacePath path="/inline/inlineEditHovered.svg"/>
+    <replacePath path="/modules/edit.svg"/>
+    <replacePath path="/toolbarDecorator/edit.svg"/>
+    <replacePath path="/toolbarDecorator/mac/edit.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/edit@14x14.svg">
+    <replacePath path="/gutter/javadocEdit.svg"/>
+    <replacePath path="/icons/expui/gutter/javadocEdit.svg"/>
+    <replacePath path="/icons/expui/gutter/writeAccess.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/editSquare@14x14.svg">
+    <replacePath path="/gutter/suggestedRefactoring.svg"/>
+    <replacePath path="/icons/expui/gutter/suggestedRefactoring.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/editOff.svg">
+    <replacePath path="/ide/incomingChangesOff.svg"/>
+    <replacePath path="/ide/outgoingChangesOff.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/editOff@14x14.svg">
+    <replacePath path="/gutter/suggestedRefactoringDisabled.svg"/>
+    <replacePath path="/icons/expui/gutter/suggestedRefactoringDisabled.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/editorconfig.svg">
+    <replacePath path="/icons/expui/fileTypes/editorConfig.svg"/>
+    <replacePath path="/nodes/editorconfig.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/editSquare.svg">
+    <replacePath path="/actions/refactoringBulb.svg"/>
+    <replacePath path="/icons/expui/actions/suggestedRefactoringBulb.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/editSource.svg">
+    <replacePath path="/actions/editSource.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/ellipsis.svg">
+    <replacePath path="/general/ellipsis.svg"/>
+    <replacePath path="/general/moreHorizontal.svg"/>
+    <replacePath path="/general/moreTabs.svg"/>
+    <replacePath path="/general/secondaryGroup.svg"/>
+    <replacePath path="/icons/expui/general/moreHorizontal.svg"/>
+    <replacePath path="/ide/link.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/ellipsis@20x20.svg">
+    <replacePath path="/icons/expui/general/moreHorizontal@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/endpoints.svg">
+    <replacePath path="/icons/endpointGutter.svg"/>
+    <replacePath path="/icons/endpoints.svg"/>
+    <replacePath path="/icons/expui/endpoints.svg"/>
+    <replacePath path="/icons/endpointsAction.svg"/>
+    <replacePath path="/icons/expui/endpoints.svg"/>
+    <replacePath path="/icons/expui/rails/endpoints.svg"/>
+    <replacePath path="/icons/expui/springBootEndpoint.svg"/>
+    <replacePath path="/icons/expui/toolwindows/endpoints.svg"/>
+    <replacePath path="/icons/newui/endpoints.svg"/>
+    <replacePath path="/icons/newui/endpoints.svg"/>
+    <replacePath path="/icons/rails/endpoints.svg"/>
+    <replacePath path="/icons/springBootEndpoint.svg"/>
+    <replacePath path="/icons/toolWindowEndpoints.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/endpoints@20x20.svg">
+    <replacePath path="/icons/expui/toolwindows/endpoints@20x20.svg"/>
+    <replacePath path="/icons/expui/endpoints@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/enterprise.svg">
+    <replacePath path="/nodes/enterpriseProject.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/entrypoint.svg">
+    <replacePath path="/nodes/entryPoints.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/error.svg">
+    <replacePath path="/general/error.svg"/>
+    <replacePath path="/general/errorInProgress.svg"/>
+    <replacePath path="/general/inspectionsError.svg"/>
+    <replacePath path="/general/inspectionsErrorEmpty.svg"/>
+    <replacePath path="/general/showError.svg"/>
+    <replacePath path="/icons/expui/general/inspections/inspectionsError.svg"/>
+    <replacePath path="/icons/expui/general/inspections/inspectionsErrorEmpty.svg"/>
+    <replacePath path="/icons/expui/general/inspectionsError.svg"/>
+    <replacePath path="/icons/expui/general/inspectionsErrorEmpty.svg"/>
+    <replacePath path="/icons/expui/status/error.svg"/>
+    <replacePath path="/nodes/errorIntroduction.svg"/>
+    <replacePath path="/status/error.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/error@14x14.svg">
+    <replacePath path="/icons/expui/gutter/runError.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/error@28x28.svg">
+    <replacePath path="/icons/expui/general/errorDialog.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/exclamationMark.svg">
+    <replacePath path="/general/exclMark.svg"/>
+    <replacePath path="/hierarchy/shouldDefineMethod.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/exit.svg">
+    <replacePath path="/actions/exit.svg"/>
+    <replacePath path="/icons/expui/general/exit.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/expand.svg">
+    <replacePath path="/actions/expandall.svg"/>
+    <replacePath path="/general/expandComponent.svg"/>
+    <replacePath path="/general/expandComponentHover.svg"/>
+    <replacePath path="/icons/ExpandMerges.svg"/>
+    <replacePath path="/icons/chart/expandHover.svg"/>
+    <replacePath path="/icons/expui/general/expandComponent.svg"/>
+    <replacePath path="/icons/expui/inline/expand.svg"/>
+    <replacePath path="/icons/expui/inline/expandHover.svg"/>
+    <replacePath path="/inline/expand.svg"/>
+    <replacePath path="/inline/expandHover.svg"/>
+    <replacePath path="/toolbar/expand.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/expandAll.svg">
+    <replacePath path="/general/expandAll.svg"/>
+    <replacePath path="/general/expandAllHover.svg"/>
+    <replacePath path="/icons/expui/general/expandAll.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/export.svg">
+    <replacePath path="/actions/export.svg"/>
+    <replacePath path="/general/ExportSettings.svg"/>
+    <replacePath path="/graph/export.svg"/>
+    <replacePath path="/icons/exportDDL.svg"/>
+    <replacePath path="/icons/expui/general/export.svg"/>
+    <replacePath path="/icons/expui/image/export.svg"/>
+    <replacePath path="/toolbarDecorator/export.svg"/>
+    <replacePath path="/toolbarDecorator/mac/export.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/eye.svg">
+    <replacePath path="/actions/preview.svg"/>
+    <replacePath path="/actions/show.svg"/>
+    <replacePath path="/actions/toggleVisibility.svg"/>
+    <replacePath path="/codeWithMe/cwmPermissionView.svg"/>
+    <replacePath path="/debugger/reveal/revealOn.svg"/>
+    <replacePath path="/general/inspectionsEye.svg"/>
+    <replacePath path="/icons/expui/actions/preview.svg"/>
+    <replacePath path="/icons/expui/actions/toggleVisibility.svg"/>
+    <replacePath path="/icons/expui/codeWithMe/cwmPermissionView.svg"/>
+    <replacePath path="/icons/expui/general/inspections/inspectionsEye.svg"/>
+    <replacePath path="/icons/expui/general/inspectionsEye.svg"/>
+    <replacePath path="/icons/expui/general/show.svg"/>
+    <replacePath path="/icons/expui/objectBrowser/sortByVisibility.svg"/>
+    <replacePath path="/icons/expui/previewChanges.svg"/>
+    <replacePath path="/icons/previewChanges.svg"/>
+    <replacePath path="/icons/renderKit.svg"/>
+    <replacePath path="/javaee/jsf/newui/renderKit.svg"/>
+    <replacePath path="/javaee/jsf/renderKit.svg"/>
+    <replacePath path="/objectBrowser/sortByVisibility.svg"/>
+    <replacePath path="/toolwindows/toolWindowPreview.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/eyeOff.svg">
+    <replacePath path="/debugger/reveal/revealOff.svg"/>
+    <replacePath path="/general/inspectionsOff.svg"/>
+    <replacePath path="/icons/expui/general/inspections/inspectionsOff.svg"/>
+    <replacePath path="/icons/expui/general/inspectionsOff.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/factory.svg">
+    <replacePath path="/javaee/cdi/beanFactory.svg"/>
+    <replacePath path="/javaee/cdi/gutter/beanFactory.svg"/>
+    <replacePath path="/javaee/cdi/newui/beanFactory.svg"/>
+    <replacePath path="/javaee/cdi/newui/beanFactory@14x14.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/fatal.svg">
+    <replacePath path="/general/balloonError.svg"/>
+    <replacePath path="/general/notificationError.svg"/>
+    <replacePath path="/ide/error_notifications.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/favoriteTag.svg">
+    <replacePath path="/icons/currentBranchFavoriteLabel.svg"/>
+    <replacePath path="/icons/expui/vcs/currentBranchFavorite.svg"/>
+    <replacePath path="/icons/expui/vcs/new/currentBranchFavoriteLabel.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/featureSearch.svg">
+    <replacePath path="/actions/dependencyAnalyzer.svg"/>
+    <replacePath path="/icons/expui/build/dependencyAnalyzer.svg"/>
+    <replacePath path="/icons/expui/general/dependencyAnalyzer.svg"/>
+    <replacePath path="/toolwindows/toolWindowModuleDependencies.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/file@14x14.svg">
+    <replacePath path="/gutter/descriptionFile.svg"/>
+    <replacePath path="/icons/gutter/descriptionFile.svg"/>
+    <replacePath path="/icons/expui/gutter/descriptionFile.svg"/>
+    <replacePath path="/icons/expui/gutter/descriptionFile@14x14.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/filter.svg">
+    <replacePath path="/actions/filter.svg"/>
+    <replacePath path="/general/activeFilter.svg"/>
+    <replacePath path="/general/filter.svg"/>
+    <replacePath path="/icons/expui/filterHistory.svg"/>
+    <replacePath path="/icons/expui/general/filter.svg"/>
+    <replacePath path="/icons/filterAndOrder.svg"/>
+    <replacePath path="/icons/filterHistory.svg"/>
+    <replacePath path="/javaee/cdi/gutter/scopes.svg"/>
+    <replacePath path="/javaee/cdi/scopes.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/filterDups.svg">
+    <replacePath path="/icons/expui/actions/filterDups.svg"/>
+    <replacePath path="/icons/expui/actions/filterdups.svg"/>
+    <replacePath path="/toolbar/filterdups.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/findInPage.svg">
+    <replacePath path="/actions/showViewer.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/find.svg">
+    <replacePath path="/icons/expui/toolwindows/find.svg"/>
+    <replacePath path="/toolwindows/toolWindowFind.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/find@20x20.svg">
+    <replacePath path="/icons/expui/toolwindows/find@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/fitScreen.svg">
+    <replacePath path="/general/fitContent.svg"/>
+    <replacePath path="/graph/fitContent.svg"/>
+    <replacePath path="/icons/expui/image/fitContent.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/flow.svg">
+    <replacePath path="/icons/expui/traceStream.svg"/>
+    <replacePath path="/icons/navigationRule.svg"/>
+    <replacePath path="/icons/stream_debugger.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/folder.svg">
+    <replacePath path="/actions/menu-folder.svg"/>
+    <replacePath path="/actions/openDisk.svg"/>
+    <replacePath path="/actions/openDiskHover.svg"/>
+    <replacePath path="/icons/expui/general/open.svg"/>
+    <replacePath path="/icons/expui/inline/browse.svg"/>
+    <replacePath path="/icons/expui/inline/browseHover.svg"/>
+    <replacePath path="/images/ThumbnailDirectory.svg"/>
+    <replacePath path="/inline/browse.svg"/>
+    <replacePath path="/inline/browseHover.svg"/>
+    <replacePath path="/icons/folder.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/folderTinted.svg">
+    <replacePath path="/modules/folderClosed.svg"/>
+    <replacePath path="/nodes/TreeClosed.svg"/>
+    <replacePath path="/nodes/folder.svg"/>
+    <replacePath path="/nodes/folderClosed.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/folderCode.svg">
+    <replacePath path="/modules/generatedSourceRoot.svg"/>
+    <replacePath path="/modules/sourceRoot.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/folderEdit.svg">
+    <replacePath path="/modules/editFolder.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/folderExcluded.svg">
+    <replacePath path="/modules/addExcludedRoot.svg"/>
+    <replacePath path="/modules/excludeRoot.svg"/>
+    <replacePath path="/modules/unloadedModule.svg"/>
+    <replacePath path="/modules/unmarkWebroot.svg"/>
+    <replacePath path="/nodes/unmarkWebroot.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/folderGenerated.svg">
+    <replacePath path="/actions/generated.svg"/>
+    <replacePath path="/actions/generatedFolder.svg"/>
+    <replacePath path="/icons/expui/actions/generated.svg"/>
+    <replacePath path="/modules/generatedFolder.svg"/>
+    <replacePath path="/modules/excludedGeneratedRoot.svg"/>
+    <replacePath path="/nodes/compiledClassesFolder.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/folderLogs.svg">
+    <replacePath path="/nodes/logFolder.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/folderOpen.svg">
+    <replacePath path="/nodes/TreeOpen.svg"/>
+    <replacePath path="/nodes/folderClosedOpen.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/folderOpen@20x20.svg">
+    <replacePath path="/icons/expui/welcome/open.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/folders.svg">
+    <replacePath path="/general/projectTab.svg"/>
+    <replacePath path="/icons/expui/toolwindows/fileSystem.svg"/>
+    <replacePath path="/nodes/ppLibFolder.svg"/>
+    <replacePath path="/toolbar/folders.svg"/>
+    <replacePath path="/vcs/folders.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/folders@20x20.svg">
+    <replacePath path="/icons/expui/toolwindows/fileSystem@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/folderResources.svg">
+    <replacePath path="/modules/resourcesRoot.svg"/>
+    <replacePath path="/icons/resourceRoot.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/folderSettings.svg">
+    <replacePath path="/icons/expui/build/taskGroup.svg"/>
+    <replacePath path="/nodes/configFolder.svg"/>
+    <replacePath path="/tasks/taskGroup.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/folderSource.svg">
+    <replacePath path="/modules/sourceFolder.svg"/>
+    <replacePath path="/nodes/sourceFolder.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/folderTest.svg">
+    <replacePath path="/modules/generatedTestRoot.svg"/>
+    <replacePath path="/modules/testResourcesRoot.svg"/>
+    <replacePath path="/modules/testRoot.svg"/>
+    <replacePath path="/modules/testSourceFolder.svg"/>
+    <replacePath path="/nodes/testGroup.svg"/>
+    <replacePath path="/nodes/testSourceFolder.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/folderVendor.svg">
+    <replacePath path="/icons/componentVendor.svg"/>
+    <replacePath path="/icons/vendor.svg"/>
+    <replacePath path="/icons/expui/vendor.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/folderZip.svg">
+    <replacePath path="/icons/extract.svg"/>
+    <replacePath path="/nodes/extractedFolder.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/forward.svg">
+    <replacePath path="/actions/findForward.svg"/>
+    <replacePath path="/actions/forward.svg"/>
+    <replacePath path="/actions/nextfile.svg"/>
+    <replacePath path="/actions/play_forward.svg"/>
+    <replacePath path="/debugger/nextStatement.svg"/>
+    <replacePath path="/hierarchy/base.svg"/>
+    <replacePath path="/icons/expui/actions/playForward.svg"/>
+    <replacePath path="/icons/expui/breakpoints/nextStatement.svg"/>
+    <replacePath path="/icons/expui/general/right.svg"/>
+    <replacePath path="/icons/expui/playForward.svg"/>
+    <replacePath path="/icons/expui/run/nextStatement.svg"/>
+    <replacePath path="/icons/forward.svg"/>
+    <replacePath path="/icons/play_forward.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/function.svg">
+    <replacePath path="/debugger/LambdaBreakpoint.svg"/>
+    <replacePath path="/icons/expui/breakpoints/breakpointLambda.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/gear.svg">
+    <replacePath path="/codeStyle/Gear.svg"/>
+    <replacePath path="/general/ImportSettings.svg"/>
+    <replacePath path="/general/settings.svg"/>
+    <replacePath path="/icons/expui/general/settings.svg"/>
+    <replacePath path="/icons/newui/settings.svg"/>
+    <replacePath path="/icons/config.svg"/>
+    <replacePath path="/icons/configuration.svg"/>
+    <replacePath path="/icons/newui/configuration.svg"/>
+    <replacePath path="/icons/fileTypes/config.svg"/>
+    <replacePath path="/icons/expui/fileTypes/config.svg"/>
+    <replacePath path="/icons/settings.svg"/>
+    <replacePath path="/ide/notifications/gear.svg"/>
+    <replacePath path="/javaee/WebService.svg"/>
+    <replacePath path="/javaee/WebServiceClient.svg"/>
+    <replacePath path="/rider/wizard/settings.svg"/>
+    <replacePath path="/wizard/settings.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/gear@20x20.svg">
+    <replacePath path="/icons/expui/general/settings@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/gift.svg">
+    <replacePath path="/ide/gift.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/git.svg">
+    <replacePath path="/icons/branch.svg"/>
+    <replacePath path="/icons/expui/general/vcs.svg"/>
+    <replacePath path="/icons/expui/toolwindows/vcs.svg"/>
+    <replacePath path="/icons/expui/vcs/branch.svg"/>
+    <replacePath path="/icons/expui/vcs/vcs.svg"/>
+    <replacePath path="/icons/review/branch.svg"/>
+    <replacePath path="/org/jetbrains/plugins/github/branch.svg"/>
+    <replacePath path="/toolwindows/toolWindowChanges.svg"/>
+    <replacePath path="/toolwindows/vcsSmallTab.svg"/>
+    <replacePath path="/vcs/branch.svg"/>
+    <replacePath path="/vcs/branchNode.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/git@20x20.svg">
+    <replacePath path="/icons/expui/toolwindows/vcs@20x20.svg"/>
+    <replacePath path="/icons/expui/welcome/fromVCSTab.svg"/>
+    <replacePath path="/welcome/fromVCS.svg"/>
+    <replacePath path="/welcome/fromVCSTab.svg"/>
+    <replacePath path="/welcome/fromVCSTabSelected.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/github.svg">
+    <replacePath path="/icons/expui/toolwindows/pullRequests.svg"/>
+    <replacePath path="/org/jetbrains/plugins/github/expui/pullRequests.svg"/>
+    <replacePath path="/org/jetbrains/plugins/github/pullRequestsToolWindow.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/github@20x20.svg">
+    <replacePath path="/icons/expui/toolwindows/pullRequests@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/gradle.svg">
+    <replacePath path="/icons/expui/gradle.svg"/>
+    <replacePath path="/icons/expui/toolwindows/gradle.svg"/>
+    <replacePath path="/icons/gradle.svg"/>
+    <replacePath path="/icons/toolWindowGradle.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/gradle@20x20.svg">
+    <replacePath path="/icons/expui/gradle@20x20.svg"/>
+    <replacePath path="/icons/expui/toolwindows/gradle@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/grid.svg">
+    <replacePath path="/graph/grid.svg"/>
+    <replacePath path="/icons/expui/image/grid.svg"/>
+    <replacePath path="/images/ToggleGrid.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/group.svg">
+    <replacePath path="/actions/groupBy.svg"/>
+    <replacePath path="/icons/expui/general/groups.svg"/>
+    <replacePath path="/icons/group.svg"/>
+    <replacePath path="/icons/groupBy.svg"/>
+    <replacePath path="/icons/newui/group.svg"/>
+    <replacePath path="/javaee/webModuleGroup.svg"/>
+    <replacePath path="/rider/toolbar/grouping.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/grunt.svg">
+    <replacePath path="/buildTools/grunt/grunt.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/gruntToolWindow.svg">
+    <replacePath path="/buildTools/grunt/grunt_toolwindow.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/gulp.svg">
+    <replacePath path="/buildTools/gulp/gulp.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/gulpToolWindow.svg">
+    <replacePath path="/buildTools/gulp/gulp_toolwindow.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/heatmap.svg">
+    <replacePath path="/icons/expui/tableHeatmap.svg"/>
+    <replacePath path="/icons/tableHeatmap.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/help.svg">
+    <replacePath path="/actions/help.svg"/>
+    <replacePath path="/actions/menu-help.svg"/>
+    <replacePath path="/general/contextHelp.svg"/>
+    <replacePath path="/general/help.svg"/>
+    <replacePath path="/icons/contextHelp.svg"/>
+    <replacePath path="/icons/expui/general/help.svg"/>
+    <replacePath path="/icons/expui/ruby/nodes/help.svg"/>
+    <replacePath path="/icons/expui/windows/help.svg"/>
+    <replacePath path="/icons/expui/windows/helpButton.svg"/>
+    <replacePath path="/icons/expui/windows/helpButtonInactive.svg"/>
+    <replacePath path="/icons/expui/windows/helpInactive.svg"/>
+    <replacePath path="/icons/expui/windows/winHelp.svg"/>
+    <replacePath path="/icons/ruby/nodes/help.svg"/>
+    <replacePath path="/windows/help.svg"/>
+    <replacePath path="/windows/helpButton.svg"/>
+    <replacePath path="/windows/helpButtonInactive.svg"/>
+    <replacePath path="/windows/helpInactive.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/hidden.svg">
+    <replacePath path="/actions/showHiddens.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/hideDown.svg">
+    <replacePath path="/general/hideDown.svg"/>
+    <replacePath path="/general/hideDownHover.svg"/>
+    <replacePath path="/general/hideDownPart.svg"/>
+    <replacePath path="/general/hideDownPartHover.svg"/>
+    <replacePath path="/ide/dnd/top.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/hideLeft.svg">
+    <replacePath path="/general/hideLeft.svg"/>
+    <replacePath path="/general/hideLeftHover.svg"/>
+    <replacePath path="/general/hideLeftPart.svg"/>
+    <replacePath path="/general/hideLeftPartHover.svg"/>
+    <replacePath path="/ide/dnd/right.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/hideRight.svg">
+    <replacePath path="/general/hideRight.svg"/>
+    <replacePath path="/general/hideRightHover.svg"/>
+    <replacePath path="/general/hideRightPart.svg"/>
+    <replacePath path="/general/hideRightPartHover.svg"/>
+    <replacePath path="/ide/dnd/left.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/hideUp.svg">
+    <replacePath path="/general/hideUp.svg"/>
+    <replacePath path="/general/hideUpHover.svg"/>
+    <replacePath path="/general/hideUpPart.svg"/>
+    <replacePath path="/general/hideUpPartHover.svg"/>
+    <replacePath path="/ide/dnd/bottom.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/hideWarnings.svg">
+    <replacePath path="/general/hideWarnings.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/hierarchy.svg">
+    <replacePath path="/icons/expui/toolwindows/hierarchy.svg"/>
+    <replacePath path="/toolwindows/toolWindowHierarchy.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/hierarchy@20x20.svg">
+    <replacePath path="/icons/expui/toolwindows/hierarchy@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/highlight.svg">
+    <replacePath path="/actions/highlighting.svg"/>
+    <replacePath path="/icons/expui/objectBrowser/showEditorHighlighting.svg"/>
+    <replacePath path="/objectBrowser/showEditorHighlighting.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/history.svg">
+    <replacePath path="/debugger/promptInputHistory.svg"/>
+    <replacePath path="/general/messageHistory.svg"/>
+    <replacePath path="/icons/expui/breakpoints/promptInputHistory.svg"/>
+    <replacePath path="/icons/expui/debugger/promptInputHistory.svg"/>
+    <replacePath path="/icons/expui/general/history.svg"/>
+    <replacePath path="/icons/expui/run/promptInputHistory.svg"/>
+    <replacePath path="/javaee/cdi/gutter/scheduledEvent.svg"/>
+    <replacePath path="/javaee/cdi/newui/scheduledEvent.svg"/>
+    <replacePath path="/javaee/cdi/newui/scheduledEvent@14x14.svg"/>
+    <replacePath path="/javaee/cdi/scheduledEvent.svg"/>
+    <replacePath path="/toolwindows/toolWindowSettingsSyncHistory.svg"/>
+    <replacePath path="/vcs/history.svg"/>
+    <replacePath path="/vcs/historyInline.svg"/>
+    <replacePath path="/vcs/historyInlineHovered.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/home.svg">
+    <replacePath path="/icons/expui/javaee/home.svg"/>
+    <replacePath path="/icons/expui/nodes/homeFolder.svg"/>
+    <replacePath path="/icons/rector.svg"/>
+    <replacePath path="/javaee/javaee/home.svg"/>
+    <replacePath path="/javaee/javaee/newui/home.svg"/>
+    <replacePath path="/javaee/localHome.svg"/>
+    <replacePath path="/nodes/homeFolder.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/horizontalSplit.svg">
+    <replacePath path="/actions/splitHorizontally.svg"/>
+    <replacePath path="/general/splitCenterH.svg"/>
+    <replacePath path="/icons/expui/general/previewHorizontally.svg"/>
+    <replacePath path="/icons/expui/general/splitHorizontally.svg"/>
+    <replacePath path="/rider/toolbar/splitBottom.svg"/>
+    <replacePath path="/modules/split.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/ignoredTest.svg">
+    <replacePath path="/icons/expui/runConfigurations/ignoredTest.svg"/>
+    <replacePath path="/runConfigurations/ignoredTest.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/i18n.svg">
+    <replacePath path="/nodes/resourcesBundle.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/i18n@14x14.svg">
+    <replacePath path="/gutter/properties.svg"/>
+    <replacePath path="/icons/expui/gutter/properties.svg"/>
+    <replacePath path="/icons/expui/gutter/properties@14x14.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/image.svg">
+    <replacePath path="/images/ImagesFileType.svg"/>
+    <replacePath path="/images/ThumbnailToolWindow.svg"/>
+    <replacePath path="/icons/expui/fileTypes/image.svg"/>
+    <replacePath path="/icons/imageGutter.svg"/>
+    <replacePath path="/icons/SingleImage.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/implementingMethod.svg">
+    <replacePath path="/icons/expui/gutter/implementingMethod.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/implementedMethod.svg">
+    <replacePath path="/icons/expui/gutter/implementedMethod.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/implementingFunction.svg">
+    <replacePath path="/icons/expui/gutter/implementingFunctionalInterface.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/implementedFunction.svg">
+    <replacePath path="/icons/expui/gutter/implementedFunctionInterface.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/info.svg">
+    <replacePath path="/general/balloonInformation.svg"/>
+    <replacePath path="/general/information.svg"/>
+    <replacePath path="/general/note.svg"/>
+    <replacePath path="/general/notificationInfo.svg"/>
+    <replacePath path="/general/showInfos.svg"/>
+    <replacePath path="/icons/expui/status/info.svg"/>
+    <replacePath path="/ide/info_notifications.svg"/>
+    <replacePath path="/status/info.svg"/>
+    <replacePath path="/toolwindows/infoEvents.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/inheritedMethod.svg">
+    <replacePath path="/icons/expui/gutter/inheritedMethod.svg"/>
+    <replacePath path="/icons/expui/gutter/siblingInheritedMethod.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/inheritingMethod.svg">
+    <replacePath path="/icons/expui/gutter/showToImplement.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/inlayGear.svg">
+    <replacePath path="/actions/inlayGear.svg"/>
+    <replacePath path="/icons/expui/codeInsight/inlaySettings.svg"/>
+    <replacePath path="/icons/expui/editor/inlaySettings.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/inlayGlobe.svg">
+    <replacePath path="/icons/expui/codeInsight/inlayGlobe.svg"/>
+    <replacePath path="/icons/expui/editor/inlayGlobe.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/inlaySecuredShield.svg">
+    <replacePath path="/icons/expui/codeInsight/inlaySecuredShield.svg"/>
+    <replacePath path="/icons/expui/editor/inlaySecuredShield.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/inlayRenameInComments.svg">
+    <replacePath path="/icons/expui/codeInsight/inlayRenameInComments.svg"/>
+    <replacePath path="/icons/expui/editor/inlayRenameInComments.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/inlayRenameInCommentsActive.svg">
+    <replacePath path="/icons/expui/codeInsight/inlayRenameInCommentsActive.svg"/>
+    <replacePath path="/icons/expui/editor/inlayRenameInCommentsActive.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/inlayRenameInNoCodeFiles.svg">
+    <replacePath path="/icons/expui/codeInsight/inlayRenameInNoCodeFiles.svg"/>
+    <replacePath path="/icons/expui/editor/inlayRenameInNoCodeFiles.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/inlayRenameInNoCodeFilesActive.svg">
+    <replacePath path="/icons/expui/codeInsight/inlayRenameInNoCodeFilesActive.svg"/>
+    <replacePath path="/icons/expui/editor/inlayRenameInNoCodeFilesActive.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/install.svg">
+    <replacePath path="/actions/install.svg"/>
+    <replacePath path="/icons/expui/actions/install.svg"/>
+    <replacePath path="/icons/operations/install.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/inSelection.svg">
+    <replacePath path="/actions/inSelection.svg"/>
+    <replacePath path="/icons/expui/actions/inSelection.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/import.svg">
+    <replacePath path="/css/import.svg"/>
+    <replacePath path="/icons/expui/general/import.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/include.svg">
+    <replacePath path="/nodes/include.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/ios.svg">
+    <replacePath path="/nodes/ios.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/java.svg">
+    <replacePath path="/nodes/jsr45.svg"/>
+    <replacePath path="/nodes/jvm.svg"/>
+    <replacePath path="/nodes/ppJdk.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/js.svg">
+    <replacePath path="/nodes/js.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/key.svg">
+    <replacePath path="/codeWithMe/cwmPermissions.svg"/>
+    <replacePath path="/general/passwordLock.svg"/>
+    <replacePath path="/icons/expui/codeWithMe/cwmPermissions.svg"/>
+    <replacePath path="/nodes/securityRole.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/keyboard.svg">
+    <replacePath path="/general/keymap.svg"/>
+    <replacePath path="/icons/expui/general/keyboard.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/layers.svg">
+    <replacePath path="/debugger/memoryView/toolWindowEnabled.svg"/>
+    <replacePath path="/general/tbHidden.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/layersOff.svg">
+    <replacePath path="/debugger/memoryView/toolWindowDisabled.svg"/>
+    <replacePath path="/general/tbShown.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/layout.svg">
+    <replacePath path="/debugger/restoreLayout.svg"/>
+    <replacePath path="/general/layout.svg"/>
+    <replacePath path="/icons/expui/breakpoints/restoreLayout.svg"/>
+    <replacePath path="/icons/expui/general/layout.svg"/>
+    <replacePath path="/javaee/cdi/gutter/beanInfrastructure.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/learn.svg">
+    <replacePath path="/icons/expui/actions/learn.svg"/>
+    <replacePath path="/icons/expui/toolwindows/learn.svg"/>
+    <replacePath path="/img/expui/toolwindow/learn.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/learn@20x20.svg">
+    <replacePath path="/icons/expui/toolwindows/learn@20x20.svg"/>
+    <replacePath path="/img/expui/toolwindow/learn@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/leftClose.svg">
+    <replacePath path="/actions/arrowCollapse.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/leftOpen.svg">
+    <replacePath path="/actions/arrowExpand.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/libraries.svg">
+    <replacePath path="/nodes/nativeLibrariesFolder.svg"/>
+    <replacePath path="/nodes/ppLib.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/lightning.svg">
+    <replacePath path="/actions/lightning.svg"/>
+    <replacePath path="/icons/exception_analyzer.svg"/>
+    <replacePath path="/icons/exception_analyzer_important.svg"/>
+    <replacePath path="/icons/expui/actions/lightning.svg"/>
+    <replacePath path="/icons/expui/exceptionAnalyzer.svg"/>
+    <replacePath path="/icons/expui/exceptionAnalyzerImportant.svg"/>
+    <replacePath path="/icons/marker_border.svg"/>
+    <replacePath path="/javaee/cdi/gutter/event.svg"/>
+    <replacePath path="/nodes/exception.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/lightning@20x20.svg">
+    <replacePath path="/icons/expui/exceptionAnalyzer@20x20.svg"/>
+    <replacePath path="/icons/expui/exceptionAnalyzerImportant@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/like.svg">
+    <replacePath path="/ide/like.svg"/>
+    <replacePath path="/ide/likeDimmed.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/link.svg">
+    <replacePath path="/icons/expui/mavenBind.svg"/>
+    <replacePath path="/icons/link.svg"/>
+    <replacePath path="/icons/mavenBind.svg"/>
+    <replacePath path="/nodes/related.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/list.svg">
+    <replacePath path="/actions/quickList.svg"/>
+    <replacePath path="/icons/expui/general/listFiles.svg"/>
+    <replacePath path="/icons/listFiles.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/loading.svg">
+    <replacePath path="/icons/loading.svg"/>
+    <replacePath path="/icons/expui/run/widget/loader.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/localhost.svg">
+    <replacePath path="/icons/local.svg"/>
+    <replacePath path="/icons/rfsIcons/local.svg"/>
+    <replacePath path="/icons/storageIcons/local.svg"/>
+    <replacePath path="/javaee/local.svg"/>
+    <replacePath path="/javaee/localHome.svg"/>
+    <replacePath path="/settingSync/expui/localChanges.svg"/>
+    <replacePath path="/settingSync/localChanges.svg"/>
+    <replacePath path="/webDeployment/local.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/lock.svg">
+    <replacePath path="/diff/lock.svg"/>
+    <replacePath path="/icons/expui/diff/disableEditing.svg"/>
+    <replacePath path="/icons/expui/diff/lock.svg"/>
+    <replacePath path="/icons/expui/general/locked.svg"/>
+    <replacePath path="/icons/expui/mavenChecksum.svg"/>
+    <replacePath path="/icons/expui/ultimate/lock.svg"/>
+    <replacePath path="/icons/mavenChecksum.svg"/>
+    <replacePath path="/ide/readonly.svg"/>
+    <replacePath path="/nodes/filePrivate.svg"/>
+    <replacePath path="/nodes/padlock.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/lowPower.svg">
+    <replacePath path="/general/inspectionsPowerSaveMode.svg"/>
+    <replacePath path="/ide/powerSaveMode.svg"/>
+    <replacePath path="/icons/expui/general/inspections/inspectionsPowerSaveMode.svg"/>
+    <replacePath path="/icons/expui/general/inspectionsPowerSaveMode.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/magic.svg">
+    <replacePath path="/actions/realIntentionBulb.svg"/>
+    <replacePath path="/diff/magicResolve.svg"/>
+    <replacePath path="/icons/expui/actions/reformatCode.svg"/>
+    <replacePath path="/icons/expui/codeInsight/intentionBulb.svg"/>
+    <replacePath path="/icons/expui/codeInsight/intentionBulbGrey.svg"/>
+    <replacePath path="/icons/expui/diff/magicResolve.svg"/>
+    <replacePath path="/icons/expui/editor/intentionBulb.svg"/>
+    <replacePath path="/icons/expui/editor/intentionBulbGrey.svg"/>
+    <replacePath path="/nodes/advice.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/magicResolve.svg">
+    <replacePath path="/diff/magicResolveToolbar.svg"/>
+    <replacePath path="/icons/expui/diff/magicResolveToolbar.svg"/>
+    <replacePath path="/icons/suggestion.svg"/>
+    <replacePath path="/icons/suggestionRefactoringGutterIcon.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/magicOff.svg">
+    <replacePath path="/actions/realIntentionOffBulb.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/map.svg">
+    <replacePath path="/actions/minimap.svg"/>
+    <replacePath path="/icons/expui/actions/minimap.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/maximize.svg">
+    <replacePath path="/icons/expui/windows/maximize.svg"/>
+    <replacePath path="/icons/expui/windows/maximizeInactive.svg"/>
+    <replacePath path="/icons/expui/windows/maximizeSmall.svg"/>
+    <replacePath path="/linux/maximize.svg"/>
+    <replacePath path="/linux/maximizeInactive.svg"/>
+    <replacePath path="/linux/maximizeSmall.svg"/>
+    <replacePath path="/linux/theme/gnome/maximize.svg"/>
+    <replacePath path="/linux/theme/gnome/maximizeInactive.svg"/>
+    <replacePath path="/linux/theme/gnome/maximizeSmall.svg"/>
+    <replacePath path="/linux/theme/kde/maximize.svg"/>
+    <replacePath path="/linux/theme/kde/maximizeInactive.svg"/>
+    <replacePath path="/linux/theme/kde/maximizeSmall.svg"/>
+    <replacePath path="/windows/maximize.svg"/>
+    <replacePath path="/windows/maximizeInactive.svg"/>
+    <replacePath path="/windows/maximizeSmall.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/maximizePressed.svg">
+    <replacePath path="/icons/expui/windows/maximizePressed.svg"/>
+    <replacePath path="/linux/maximizePressed.svg"/>
+    <replacePath path="/linux/theme/gnome/maximizePressed.svg"/>
+    <replacePath path="/linux/theme/kde/maximizePressed.svg"/>
+    <replacePath path="/windows/maximizePressed.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/maven.svg">
+    <replacePath path="/icons/expui/maven.svg"/>
+    <replacePath path="/icons/expui/toolwindows/maven.svg"/>
+    <replacePath path="/icons/maven.svg"/>
+    <replacePath path="/images/expui/toolwindow/maven.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/maven@20x20.svg">
+    <replacePath path="/icons/expui/toolwindows/maven@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/memory.svg">
+    <replacePath path="/actions/profileCPU.svg"/>
+    <replacePath path="/actions/profileMemory.svg"/>
+    <replacePath path="/actions/profileRed.svg"/>
+    <replacePath path="/actions/startMemoryProfile.svg"/>
+    <replacePath path="/icons/electronicBoard.svg"/>
+    <replacePath path="/icons/expui/actions/profileCPU.svg"/>
+    <replacePath path="/icons/expui/actions/profileMemory.svg"/>
+    <replacePath path="/icons/expui/actions/profileRed.svg"/>
+    <replacePath path="/icons/expui/actions/startMemoryProfile.svg"/>
+    <replacePath path="/icons/expui/gutter/showCacheable@12x12.svg"/>
+    <replacePath path="/icons/expui/showCacheable.svg"/>
+    <replacePath path="/icons/gutter/showCacheable.svg"/>
+    <replacePath path="/icons/showCacheable.svg"/>
+    <replacePath path="/javaee/cdi/gutter/showCacheable.svg"/>
+    <replacePath path="/javaee/cdi/newui/showCacheable.svg"/>
+    <replacePath path="/javaee/cdi/newui/showCacheable@14x14.svg"/>
+    <replacePath path="/javaee/cdi/showCacheable.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/menu.svg">
+    <replacePath path="/icons/expui/general/windowsMenu.svg"/>
+    <replacePath path="/nodes/keymapMainMenu.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/menu@20x20.svg">
+    <replacePath path="/icons/expui/general/windowsMenu@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/merge.svg">
+    <replacePath path="/icons/expui/vcs/merge.svg"/>
+    <replacePath path="/vcs/merge.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/messages.svg">
+    <replacePath path="/icons/expui/toolwindows/messages.svg"/>
+    <replacePath path="/toolwindows/toolWindowMessages.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/messages@20x20.svg">
+    <replacePath path="/icons/expui/toolwindows/messages@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/micOn.svg">
+    <replacePath path="/codeWithMe/cwmMicAvatarOn.svg"/>
+    <replacePath path="/codeWithMe/cwmMicOn.svg"/>
+    <replacePath path="/icons/expui/codeWithMe/cwmMicAvatarOn.svg"/>
+    <replacePath path="/icons/expui/codeWithMe/cwmMicOn.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/micOff.svg">
+    <replacePath path="/codeWithMe/cwmMicAvatarOff.svg"/>
+    <replacePath path="/codeWithMe/cwmMicOff.svg"/>
+    <replacePath path="/icons/expui/codeWithMe/cwmMicAvatarOff.svg"/>
+    <replacePath path="/icons/expui/codeWithMe/cwmMicOff.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/minimize.svg">
+    <replacePath path="/general/hideToolWindow.svg"/>
+    <replacePath path="/general/hideToolWindowInactive.svg"/>
+    <replacePath path="/icons/expui/general/hide.svg"/>
+    <replacePath path="/icons/expui/windows/minimize.svg"/>
+    <replacePath path="/icons/expui/windows/minimizeInactive.svg"/>
+    <replacePath path="/icons/expui/windows/minimizeSmall.svg"/>
+    <replacePath path="/linux/minimize.svg"/>
+    <replacePath path="/linux/minimizeInactive.svg"/>
+    <replacePath path="/linux/minimizeSmall.svg"/>
+    <replacePath path="/linux/theme/gnome/minimize.svg"/>
+    <replacePath path="/linux/theme/gnome/minimizeInactive.svg"/>
+    <replacePath path="/linux/theme/gnome/minimizeSmall.svg"/>
+    <replacePath path="/linux/theme/kde/minimize.svg"/>
+    <replacePath path="/linux/theme/kde/minimizeInactive.svg"/>
+    <replacePath path="/linux/theme/kde/minimizeSmall.svg"/>
+    <replacePath path="/windows/minimize.svg"/>
+    <replacePath path="/windows/minimizeInactive.svg"/>
+    <replacePath path="/windows/minimizeSmall.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/minimizePressed.svg">
+    <replacePath path="/icons/expui/windows/minimizePressed.svg"/>
+    <replacePath path="/linux/minimizePressed.svg"/>
+    <replacePath path="/linux/theme/gnome/minimizePressed.svg"/>
+    <replacePath path="/linux/theme/kde/minimizePressed.svg"/>
+    <replacePath path="/windows/minimizePressed.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/mnemonic.svg">
+    <replacePath path="/icons/expui/bookmarks/mnemonic.svg"/>
+    <replacePath path="/nodes/mnemonic.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/mnemonic@14x14.svg">
+    <replacePath path="/gutter/mnemonic.svg"/>
+    <replacePath path="/icons/expui/gutter/mnemonic.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/module.svg">
+    <replacePath path="/actions/module.svg"/>
+    <replacePath path="/actions/moduleDirectory.svg"/>
+    <replacePath path="/icons/expui/nodes/module.svg"/>
+    <replacePath path="/icons/expui/nodes/moduleGroup.svg"/>
+    <replacePath path="/icons/expui/nodes/moduleJava.svg"/>
+    <replacePath path="/icons/expui/objectBrowser/flattenModules.svg"/>
+    <replacePath path="/icons/expui/objectBrowser/showModules.svg"/>
+    <replacePath path="/images/mavenModule.svg"/>
+    <replacePath path="/images/modulesClosed.svg"/>
+    <replacePath path="/javaee/javaee/JavaeeAppModule.svg"/>
+    <replacePath path="/javaee/javaee/newui/javaeeAppModule.svg"/>
+    <replacePath path="/javaee/javaee/newui/javaeeAppModule@14x14.svg"/>
+    <replacePath path="/javaee/webModule.svg"/>
+    <replacePath path="/modules/modulesNode.svg"/>
+    <replacePath path="/modules/webRoot.svg"/>
+    <replacePath path="/nodes/Module.svg"/>
+    <replacePath path="/nodes/ModuleOpen.svg"/>
+    <replacePath path="/nodes/javaModule.svg"/>
+    <replacePath path="/nodes/javaModuleRoot.svg"/>
+    <replacePath path="/nodes/moduleGroup.svg"/>
+    <replacePath path="/nodes/ideaModule.svg"/>
+    <replacePath path="/nodes/package.svg"/>
+    <replacePath path="/objectBrowser/flattenModules.svg"/>
+    <replacePath path="/objectBrowser/showModules.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/module@14x14.svg">
+    <replacePath path="/gutter/ejbModule.svg"/>
+    <replacePath path="/icons/expui/gutter/ejbModule.svg"/>
+    <replacePath path="/icons/expui/gutter/ejbModule@14x14.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/models.svg">
+    <replacePath path="/nodes/models.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/more.svg">
+    <replacePath path="/actions/more.svg"/>
+    <replacePath path="/actions/more_stroke.svg"/>
+    <replacePath path="/actions/presentationAssistantSettings.svg"/>
+    <replacePath path="/general/TemplateProjectSettings.svg"/>
+    <replacePath path="/general/gear.svg"/>
+    <replacePath path="/general/gearHover.svg"/>
+    <replacePath path="/general/gearPlain.svg"/>
+    <replacePath path="/general/gearPlainHover.svg"/>
+    <replacePath path="/general/webSettings.svg"/>
+    <replacePath path="/icons/expui/general/moreVertical.svg"/>
+    <replacePath path="/icons/expui/general/moreVertical_stroke.svg"/>
+    <replacePath path="/icons/expui/inline/inlineSettings.svg"/>
+    <replacePath path="/icons/expui/inline/inlineSettingsHover.svg"/>
+    <replacePath path="/icons/more.svg"/>
+    <replacePath path="/icons/newui/settings.svg"/>
+    <replacePath path="/icons/settings.svg"/>
+    <replacePath path="/inline/inlineSettings.svg"/>
+    <replacePath path="/inline/inlineSettingsHover.svg"/>
+    <replacePath path="/nodes/keymapOther.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/mouse.svg">
+    <replacePath path="/general/mouse.svg"/>
+    <replacePath path="/general/mouseShortcut.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/moveToToolWindow.svg">
+    <replacePath path="/actions/MoveTo2.svg"/>
+    <replacePath path="/actions/move-to-button-top.svg"/>
+    <replacePath path="/actions/move-to-button.svg"/>
+    <replacePath path="/icons/expui/actions/moveToButton.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/new.svg">
+    <replacePath path="/actions/enableNewUi.svg"/>
+    <replacePath path="/actions/enableNewUiSelected.svg"/>
+    <replacePath path="/general/createNewProject.svg"/>
+    <replacePath path="/general/new.svg"/>
+    <replacePath path="/general/new_badge.svg"/>
+    <replacePath path="/icons/expui/toolwindows/meetNewUi.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/new@20x20.svg">
+    <replacePath path="/icons/expui/toolwindows/meetNewUi@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/newFolder.svg">
+    <replacePath path="/actions/newFolder.svg"/>
+    <replacePath path="/icons/expui/actions/newFolder.svg"/>
+    <replacePath path="/nodes/newFolder.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/newProject@20x20.svg">
+    <replacePath path="/icons/expui/welcome/createNewProjectTab.svg"/>
+    <replacePath path="/welcome/createNewProjectTab.svg"/>
+    <replacePath path="/welcome/createNewProjectTabSelected.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/newTab.svg">
+    <replacePath path="/actions/openNewTab.svg"/>
+    <replacePath path="/icons/expui/general/openNewTab.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/nodeSelection.svg">
+    <replacePath path="/graph/nodeSelectionMode.svg"/>
+    <replacePath path="/icons/expui/image/nodeSelectionMode.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/note.svg">
+    <replacePath path="/icons/expui/fileTypes/scratches.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/notifications.svg">
+    <replacePath path="/icons/expui/toolwindows/notifications.svg"/>
+    <replacePath path="/ide/notifications.svg"/>
+    <replacePath path="/ide/noNotifications13.svg"/>
+    <replacePath path="/toolwindows/notifications.svg"/>
+    <replacePath path="/toolwindows/notificationsNew.svg"/>
+    <replacePath path="/toolwindows/notificationsNewImportant.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/notifications@20x20.svg">
+    <replacePath path="/icons/expui/toolwindows/notifications@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/object.svg">
+    <replacePath path="/actions/prettyPrint.svg"/>
+    <replacePath path="/debugger/db_db_object.svg"/>
+    <replacePath path="/debugger/value.svg"/>
+    <replacePath path="/icons/expui/debugger/dbObject.svg"/>
+    <replacePath path="/icons/expui/debugger/value.svg"/>
+    <replacePath path="/icons/expui/run/value.svg"/>
+    <replacePath path="/json/object.svg"/>
+    <replacePath path="/json/property_braces.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/octogonMark.svg">
+    <replacePath path="/debugger/db_obsolete.svg"/>
+    <replacePath path="/icons/expui/breakpoints/breakpointObsolete.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/off.svg">
+    <replacePath path="/general/inspectionsTrafficOff.svg"/>
+    <replacePath path="/icons/expui/general/inspections/inspectionsTrafficOff.svg"/>
+    <replacePath path="/icons/expui/general/inspectionsTrafficOff.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/offline.svg">
+    <replacePath path="/actions/offlineMode.svg"/>
+    <replacePath path="/icons/expui/build/toggleOfflineMode.svg"/>
+    <replacePath path="/icons/expui/offlineMode.svg"/>
+    <replacePath path="/icons/offlineMode.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/one.svg">
+    <replacePath path="/debugger/db_primitive.svg"/>
+    <replacePath path="/icons/expui/debugger/dbPrimitive.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/openin.svg">
+    <replacePath path="/general/openInToolWindow.svg"/>
+    <replacePath path="/icons/expui/externalLink.svg"/>
+    <replacePath path="/icons/expui/general/openInToolWindow.svg"/>
+    <replacePath path="/icons/expui/ide/externalLink.svg"/>
+    <replacePath path="/icons/expui/ide/externalLinkWhite.svg"/>
+    <replacePath path="/icons/external_link_arrow.svg"/>
+    <replacePath path="/ide/externalLinkArrowWhite.svg"/>
+    <replacePath path="/ide/external_link_arrow.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/outlet.svg">
+    <replacePath path="/debugger/threadStates/socket.svg"/>
+    <replacePath path="/webreferences/webSocket.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/overridenMethod.svg">
+    <replacePath path="/icons/expui/gutter/overridenMethod.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/package.svg">
+    <replacePath path="/icons/expui/objectBrowser/flattenPackages.svg"/>
+    <replacePath path="/objectBrowser/flattenPackages.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/palette.svg">
+    <replacePath path="/actions/editScheme.svg"/>
+    <replacePath path="/general/editColors.svg"/>
+    <replacePath path="/icons/expui/toolwindows/palette.svg"/>
+    <replacePath path="/toolwindows/toolWindowPalette.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/palette@14x14.svg">
+    <replacePath path="/icons/expui/gutter/colors.svg"/>
+    <replacePath path="/gutter/colors.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/palette@20x20.svg">
+    <replacePath path="/icons/expui/toolwindows/palette@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/parent.svg">
+    <replacePath path="/nodes/upFolder.svg"/>
+    <replacePath path="/nodes/upLevel.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/paste.svg">
+    <replacePath path="/actions/menu-paste.svg"/>
+    <replacePath path="/ai/expui/sendToEditor.svg"/>
+    <replacePath path="/ai/sendToEditor.svg"/>
+    <replacePath path="/icons/expui/general/paste.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/pause.svg">
+    <replacePath path="/actions/pause.svg"/>
+    <replacePath path="/debugger/threadFrozen.svg"/>
+    <replacePath path="/general/inspectionsPause.svg"/>
+    <replacePath path="/icons/expui/breakpoints/threadFrozen.svg"/>
+    <replacePath path="/icons/expui/debugger/threadFrozen.svg"/>
+    <replacePath path="/icons/expui/general/inspections/inspectionsPause.svg"/>
+    <replacePath path="/icons/expui/general/inspectionsPause.svg"/>
+    <replacePath path="/icons/expui/progress/pause.svg"/>
+    <replacePath path="/icons/expui/progress/pauseHovered.svg"/>
+    <replacePath path="/icons/expui/run/pause.svg"/>
+    <replacePath path="/icons/expui/run/threadFrozen.svg"/>
+    <replacePath path="/process/progressPause.svg"/>
+    <replacePath path="/process/progressPauseHover.svg"/>
+    <replacePath path="/process/progressPauseSmall.svg"/>
+    <replacePath path="/process/progressPauseSmallHover.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/phoneOn.svg">
+    <replacePath path="/codeWithMe/cwmEnableCall.svg"/>
+    <replacePath path="/icons/expui/codeWithMe/cwmEnableCall.svg"/>
+    <replacePath path="/javaee/cdi/gutter/listener.svg"/>
+    <replacePath path="/javaee/persistenceEntityListener.svg"/>
+    <replacePath path="/nodes/weblistener.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/phoneOff.svg">
+    <replacePath path="/codeWithMe/cwmDisableCall.svg"/>
+    <replacePath path="/icons/expui/codeWithMe/cwmDisableCall.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/pin.svg">
+    <replacePath path="/actions/pinTab.svg"/>
+    <replacePath path="/general/autohideOff.svg"/>
+    <replacePath path="/general/pin_tab.svg"/>
+    <replacePath path="/icons/expui/general/pin.svg"/>
+    <replacePath path="/toolbar/pin.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/pinHovered.svg">
+    <replacePath path="/icons/expui/general/pinHovered.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/pinSelected.svg">
+    <replacePath path="/icons/expui/general/pinSelected.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/pinSelectedHovered.svg">
+    <replacePath path="/icons/expui/general/pinSelectedHovered.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/pipette.svg">
+    <replacePath path="/icons/expui/image/colorPicker.svg"/>
+    <replacePath path="/ide/pipette.svg"/>
+    <replacePath path="/ide/pipette_rollover.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/play-all.svg">
+    <replacePath path="/icons/expui/runConfigurations/multiLaunch.svg"/>
+    <replacePath path="/runConfigurations/multiLaunch.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/plug.svg">
+    <replacePath path="/debugger/attachToProcess.svg"/>
+    <replacePath path="/icons/expui/debugger/attachToProcess.svg"/>
+    <replacePath path="/icons/expui/run/attachToProcess.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/plugin.svg">
+    <replacePath path="/icons/gutter/plugin.svg"/>
+    <replacePath path="/nodes/plugin.svg"/>
+    <replacePath path="/nodes/pluginJB.svg"/>
+    <replacePath path="/nodes/pluginRestart.svg"/>
+    <replacePath path="/nodes/pluginUpdate.svg"/>
+    <replacePath path="/nodes/pluginobsolete.svg"/>
+    <replacePath path="/nodes/pluginnotinstalled.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/plugin@14x14.svg">
+    <replacePath path="/icons/expui/general/plugin@14x14.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/plugin@32x32.svg">
+    <replacePath path="/nodes/pluginLogo.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/pods.svg">
+    <replacePath path="/icons/devContainers.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/portForwarding.svg">
+    <replacePath path="/icons/portForwarding.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/preview.svg">
+    <replacePath path="/general/layoutPreviewOnly.svg"/>
+    <replacePath path="/icons/editor_actions/Preview_only.svg"/>
+    <replacePath path="/icons/expui/general/previewOnly.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/print.svg">
+    <replacePath path="/general/print.svg"/>
+    <replacePath path="/graph/print.svg"/>
+    <replacePath path="/icons/expui/general/print.svg"/>
+    <replacePath path="/icons/expui/image/print.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/printPreview.svg">
+    <replacePath path="/graph/printPreview.svg"/>
+    <replacePath path="/icons/editor_actions/Print_preview.svg"/>
+    <replacePath path="/icons/expui/image/printPreview.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/profile.svg">
+    <replacePath path="/actions/profile.svg"/>
+    <replacePath path="/debugger/overhead.svg"/>
+    <replacePath path="/icons/expui/breakpoints/overhead.svg"/>
+    <replacePath path="/icons/expui/run/overhead.svg"/>
+    <replacePath path="/icons/expui/run/profile.svg"/>
+    <replacePath path="/icons/expui/toolwindows/profiler.svg"/>
+    <replacePath path="/toolwindows/toolWindowProfiler.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/profile@20x20.svg">
+    <replacePath path="/icons/expui/toolwindows/profiler@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/project.svg">
+    <replacePath path="/icons/expui/actions/projectDirectory.svg"/>
+    <replacePath path="/icons/expui/toolwindows/project.svg"/>
+    <replacePath path="/nodes/ideaProject.svg"/>
+    <replacePath path="/nodes/project.svg"/>
+    <replacePath path="/toolwindows/toolWindowProject.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/project@20x20.svg">
+    <replacePath path="/icons/expui/toolwindows/project@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/projectWideAnalysisOff.svg">
+    <replacePath path="/actions/projectWideAnalysisOff.svg"/>
+    <replacePath path="/icons/expui/general/projectWideAnalysisOff.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/projectWideAnalysis.svg">
+    <replacePath path="/actions/projectWideAnalysisOn.svg"/>
+    <replacePath path="/icons/expui/general/projectWideAnalysisOn.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/projectConfigurable.svg">
+    <replacePath path="/general/projectConfigurable.svg"/>
+    <replacePath path="/general/projectConfigurableSelected.svg"/>
+    <replacePath path="/icons/expui/general/projectConfigurable.svg"/>
+    <replacePath path="/icons/expui/general/projectConfigurableSelected.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/projectStructure.svg">
+    <replacePath path="/general/TemplateProjectStructure.svg"/>
+    <replacePath path="/general/projectStructure.svg"/>
+    <replacePath path="/icons/expui/general/projectStructure.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/prompt.svg">
+    <replacePath path="/debugger/promptInput.svg"/>
+    <replacePath path="/general/externalTools.svg"/>
+    <replacePath path="/general/externalToolsSmall.svg"/>
+    <replacePath path="/icons/command_line_tools_console.svg"/>
+    <replacePath path="/icons/command_line_tools_toolwindow.svg"/>
+    <replacePath path="/icons/expui/breakpoints/promptInput.svg"/>
+    <replacePath path="/icons/expui/debugger/promptInput.svg"/>
+    <replacePath path="/icons/expui/run/promptInput.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/question.svg">
+    <replacePath path="/icons/expui/toolbar/unknown.svg"/>
+    <replacePath path="/nodes/unknown.svg"/>
+    <replacePath path="/toolbar/unknown.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/question@20x20.svg">
+    <replacePath path="/icons/expui/toolbar/unknown@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/questionBadge.svg">
+    <replacePath path="/debugger/question_badge.svg"/>
+    <replacePath path="/icons/expui/breakpoints/questionBadge.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/read.svg">
+    <replacePath path="/actions/showReadAccess.svg"/>
+    <replacePath path="/general/readerMode.svg"/>
+    <replacePath path="/icons/dictionary.svg"/>
+    <replacePath path="/icons/expui/actions/showReadAccess.svg"/>
+    <replacePath path="/icons/expui/general/readerMode.svg"/>
+    <replacePath path="/icons/expui/objectBrowser/showLibraryContents.svg"/>
+    <replacePath path="/modules/library.svg"/>
+    <replacePath path="/nodes/javaDocFolder.svg"/>
+    <replacePath path="/objectBrowser/showLibraryContents.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/read@14x14.svg">
+    <replacePath path="/gutter/javadocRead.svg"/>
+    <replacePath path="/icons/expui/gutter/javadocRead.svg"/>
+    <replacePath path="/icons/expui/gutter/readAccess.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/rebuild.svg">
+    <replacePath path="/actions/rebuild.svg"/>
+    <replacePath path="/icons/expui/build/rebuild.svg"/>
+    <replacePath path="/icons/rebuildRecreate.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/rec.svg">
+    <replacePath path="/icons/expui/profiler/rec.svg"/>
+    <replacePath path="/icons/expui/profiler/recInactive.svg"/>
+    <replacePath path="/profiler/rec.svg"/>
+    <replacePath path="/profiler/recInactive.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/recursion@14x14.svg">
+    <replacePath path="/icons/expui/gutter/recursive.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/recursiveMethod@14x14.svg">
+    <replacePath path="/icons/expui/gutter/recursiveMethod.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/refresh.svg">
+    <replacePath path="/actions/refresh.svg"/>
+    <replacePath path="/general/inlineRefresh.svg"/>
+    <replacePath path="/general/inlineRefreshHover.svg"/>
+    <replacePath path="/icons/autoRefresh.svg"/>
+    <replacePath path="/icons/autorefresh.svg"/>
+    <replacePath path="/icons/buildTools/Refresh.svg"/>
+    <replacePath path="/icons/expui/general/refresh.svg"/>
+    <replacePath path="/icons/expui/inline/refresh.svg"/>
+    <replacePath path="/icons/expui/inline/refreshHover.svg"/>
+    <replacePath path="/icons/expui/refreshMaterializedView.svg"/>
+    <replacePath path="/icons/expui/vcs/fetch.svg"/>
+    <replacePath path="/icons/newui/autoRefresh.svg"/>
+    <replacePath path="/icons/newui/refreshKubernetesConfiguration.svg"/>
+    <replacePath path="/icons/refresh.svg"/>
+    <replacePath path="/icons/refreshKubernetesConfiguration.svg"/>
+    <replacePath path="/icons/refreshMaterializedView.svg"/>
+    <replacePath path="/icons/schemaRefresh.svg"/>
+    <replacePath path="/icons/structure/autoRefresh.svg"/>
+    <replacePath path="/inline/refresh.svg"/>
+    <replacePath path="/inline/refreshHover.svg"/>
+    <replacePath path="/javaee/updateRunningApplication.svg"/>
+    <replacePath path="/vcs/fetch.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/redo.svg">
+    <replacePath path="/actions/redo.svg"/>
+    <replacePath path="/icons/expui/general/redo.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/regex.svg">
+    <replacePath path="/actions/dynamicUsages.svg"/>
+    <replacePath path="/actions/regex.svg"/>
+    <replacePath path="/actions/regexHovered.svg"/>
+    <replacePath path="/fileTypes/regexp.svg"/>
+    <replacePath path="/icons/expui/fileTypes/regexp.svg"/>
+    <replacePath path="/icons/expui/inline/regex.svg"/>
+    <replacePath path="/icons/expui/inline/regexHovered.svg"/>
+    <replacePath path="/icons/regex.svg"/>
+    <replacePath path="/inline/regex.svg"/>
+    <replacePath path="/inline/regexHovered.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/regexSelected.svg">
+    <replacePath path="/actions/regexSelected.svg"/>
+    <replacePath path="/icons/expui/inline/regexSelected.svg"/>
+    <replacePath path="/inline/regexSelected.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/region.svg">
+    <replacePath path="/nodes/customRegion.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/remote.svg">
+    <replacePath path="/icons/JavaScript_remote_debug_configuration.svg"/>
+    <replacePath path="/icons/expui/javaScriptRemote.svg"/>
+    <replacePath path="/icons/expui/phpRemote.svg"/>
+    <replacePath path="/icons/expui/remoteMapping.svg"/>
+    <replacePath path="/icons/expui/remoteSwiftPackageDependency.svg"/>
+    <replacePath path="/icons/expui/remoteToolSet.svg"/>
+    <replacePath path="/icons/expui/runConfigurations/applicationRemote.svg"/>
+    <replacePath path="/icons/expui/runRemoteDebug.svg"/>
+    <replacePath path="/icons/php-remote.svg"/>
+    <replacePath path="/icons/remoteFS.svg"/>
+    <replacePath path="/icons/remoteMapping.svg"/>
+    <replacePath path="/icons/remoteSwiftPackageDependency.svg"/>
+    <replacePath path="/icons/remoteToolSet.svg"/>
+    <replacePath path="/icons/remote_access.svg"/>
+    <replacePath path="/icons/rfsIcons/remoteFS.svg"/>
+    <replacePath path="/icons/storageIcons/remoteFS.svg"/>
+    <replacePath path="/runConfigurations/remote.svg"/>
+    <replacePath path="/runConfigurations/remoteDebug.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/remove.svg">
+    <replacePath path="/actions/exclude.svg"/>
+    <replacePath path="/actions/remove.svg"/>
+    <replacePath path="/general/remove.svg"/>
+    <replacePath path="/icons/expui/general/remove.svg"/>
+    <replacePath path="/icons/newui/remove.svg"/>
+    <replacePath path="/icons/remove.svg"/>
+    <replacePath path="/toolbar/removeSlot.svg"/>
+    <replacePath path="/toolbarDecorator/mac/remove.svg"/>
+    <replacePath path="/toolbarDecorator/remove.svg"/>
+    <replacePath path="/vcs/remove.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/RemoveMulticaret.svg">
+    <replacePath path="/actions/RemoveMulticaret.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/replace.svg">
+    <replacePath path="/actions/menu-replace.svg"/>
+    <replacePath path="/actions/replace.svg"/>
+    <replacePath path="/icons/expui/actions/replace.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/repositories.svg">
+    <replacePath path="/icons/expui/toolwindows/repositories.svg"/>
+    <replacePath path="/icons/newui/repository.svg"/>
+    <replacePath path="/icons/repository.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/repositories@20x20.svg">
+    <replacePath path="/icons/expui/toolwindows/repositories@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/report.svg">
+    <replacePath path="/actions/report.svg"/>
+    <replacePath path="/icons/expui/actions/report.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/reset.svg">
+    <replacePath path="/actions/reset.svg"/>
+    <replacePath path="/actions/resetView.svg"/>
+    <replacePath path="/general/reset.svg"/>
+    <replacePath path="/icons/ResetMcu.svg"/>
+    <replacePath path="/icons/expui/general/reset.svg"/>
+    <replacePath path="/icons/expui/resetMcu.svg"/>
+    <replacePath path="/icons/reset.svg"/>
+    <replacePath path="/iconsEmbedded/ResetMcu.svg"/>
+    <replacePath path="/img/expui/resetLesson.svg"/>
+    <replacePath path="/img/resetLesson.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/restart@14x14.svg">
+    <replacePath path="/icons/expui/gutter/rerun.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/restart.svg">
+    <replacePath path="/actions/buildAutoReloadChanges.svg"/>
+    <replacePath path="/actions/buildLoadChanges.svg"/>
+    <replacePath path="/actions/rerun.svg"/>
+    <replacePath path="/actions/rerunAutomatically.svg"/>
+    <replacePath path="/actions/rerun_stroke.svg"/>
+    <replacePath path="/actions/restart.svg"/>
+    <replacePath path="/icons/expui/actions/buildAutoReloadChanges.svg"/>
+    <replacePath path="/icons/expui/actions/rerunAutomatically.svg"/>
+    <replacePath path="/icons/expui/run/rerun.svg"/>
+    <replacePath path="/icons/expui/run/rerun_stroke.svg"/>
+    <replacePath path="/icons/expui/run/restart.svg"/>
+    <replacePath path="/icons/expui/run/restartFrame.svg"/>
+    <replacePath path="/icons/expui/run/widget/restart.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/restartDebugger.svg">
+    <replacePath path="/actions/restartDebugger.svg"/>
+    <replacePath path="/actions/restartDebugger_stroke.svg"/>
+    <replacePath path="/icons/expui/run/restartDebug.svg"/>
+    <replacePath path="/icons/expui/run/restartDebug_stroke.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/restartStop.svg">
+    <replacePath path="/actions/restartStop.svg"/>
+    <replacePath path="/actions/stopAndRestart.svg"/>
+    <replacePath path="/icons/expui/actions/restartStop.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/restore.svg">
+    <replacePath path="/icons/expui/windows/restore.svg"/>
+    <replacePath path="/icons/expui/windows/restoreInactive.svg"/>
+    <replacePath path="/icons/expui/windows/restoreSmall.svg"/>
+    <replacePath path="/linux/restore.svg"/>
+    <replacePath path="/linux/restoreHover.svg"/>
+    <replacePath path="/linux/restoreInactive.svg"/>
+    <replacePath path="/linux/restoreSmall.svg"/>
+    <replacePath path="/linux/theme/gnome/restore.svg"/>
+    <replacePath path="/linux/theme/gnome/restoreHover.svg"/>
+    <replacePath path="/linux/theme/gnome/restoreInactive.svg"/>
+    <replacePath path="/linux/theme/gnome/restoreSmall.svg"/>
+    <replacePath path="/linux/theme/kde/restore.svg"/>
+    <replacePath path="/linux/theme/kde/restoreHover.svg"/>
+    <replacePath path="/linux/theme/kde/restoreInactive.svg"/>
+    <replacePath path="/linux/theme/kde/restoreSmall.svg"/>
+    <replacePath path="/windows/restore.svg"/>
+    <replacePath path="/windows/restoreHover.svg"/>
+    <replacePath path="/windows/restoreInactive.svg"/>
+    <replacePath path="/windows/restoreSmall.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/restorePressed.svg">
+    <replacePath path="/icons/expui/windows/restorePressed.svg"/>
+    <replacePath path="/linux/restorePressed.svg"/>
+    <replacePath path="/linux/theme/gnome/restorePressed.svg"/>
+    <replacePath path="/linux/theme/kde/restorePressed.svg"/>
+    <replacePath path="/windows/restorePressed.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/resume.svg">
+    <replacePath path="/actions/resume.svg"/>
+    <replacePath path="/icons/expui/progress/resume.svg"/>
+    <replacePath path="/icons/expui/run/resume.svg"/>
+    <replacePath path="/icons/expui/run/resume_stroke.svg"/>
+    <replacePath path="/icons/expui/vcs/new/resolveContinue.svg"/>
+    <replacePath path="/icons/expui/vcs/new/resolveContinue_stroke.svg"/>
+    <replacePath path="/process/progressResume.svg"/>
+    <replacePath path="/process/progressResumeHover.svg"/>
+    <replacePath path="/process/progressResumeSmall.svg"/>
+    <replacePath path="/process/progressResumeSmallHover.svg"/>
+    <replacePath path="/process/resume.svg"/>
+    <replacePath path="/process/resumeHover.svg"/>
+    <replacePath path="/process/resumeSmall.svg"/>
+    <replacePath path="/process/resumeSmallHover.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/return.svg">
+    <replacePath path="/actions/searchNewLine.svg"/>
+    <replacePath path="/icons/expui/inline/newLine.svg"/>
+    <replacePath path="/icons/expui/inline/newLineHover.svg"/>
+    <replacePath path="/inline/newLine.svg"/>
+    <replacePath path="/inline/newLineHover.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/returnSelected.svg">
+    <replacePath path="/actions/searchNewLineHover.svg"/>
+    <replacePath path="/icons/expui/inline/newLineHover.svg"/>
+    <replacePath path="/inline/newLineHover.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/rhombusLarge.svg">
+    <replacePath path="/hierarchy/supertypes.svg"/>
+    <replacePath path="/icons/expui/gutter/showAutowiredCandidates@12x12.svg"/>
+    <replacePath path="/icons/expui/hierarchy/supertypes.svg"/>
+    <replacePath path="/icons/gutter/showAutowiredCandidates.svg"/>
+    <replacePath path="/javaee/cdi/gutter/showAutowiredCandidates.svg"/>
+    <replacePath path="/javaee/cdi/newui/gutter/showAutowiredCandidates.svg"/>
+    <replacePath path="/javaee/cdi/newui/showAutowiredCandidates.svg"/>
+    <replacePath path="/javaee/cdi/newui/showAutowiredCandidates@14x14.svg"/>
+    <replacePath path="/javaee/cdi/showAutowiredCandidates.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/rhombusSmall.svg">
+    <replacePath path="/icons/expui/hierarchy/subtypes.svg"/>
+    <replacePath path="/hierarchy/subtypes.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/rollback.svg">
+    <replacePath path="/actions/rollback.svg"/>
+    <replacePath path="/diff/revert.svg"/>
+    <replacePath path="/icons/expui/diff/revert.svg"/>
+    <replacePath path="/icons/expui/diff/revert@14x14.svg"/>
+    <replacePath path="/icons/expui/rollback.svg"/>
+    <replacePath path="/icons/expui/vcs/revert.svg"/>
+    <replacePath path="/icons/rollbackDB.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/run.svg">
+    <replacePath path="/actions/execute.svg"/>
+    <replacePath path="/actions/execute_stroke.svg"/>
+    <replacePath path="/debugger/threadRunning.svg"/>
+    <replacePath path="/general/run.svg"/>
+    <replacePath path="/icons/com/jetbrains/pythonCore/python/executeCurrentStatement.svg"/>
+    <replacePath path="/icons/com/jetbrains/pythonCore/python/expui/executeCurrentStatement.svg"/>
+    <replacePath path="/icons/executeSelection.svg"/>
+    <replacePath path="/icons/expui/breakpoints/threadRunning.svg"/>
+    <replacePath path="/icons/expui/debugger/threadRunning.svg"/>
+    <replacePath path="/icons/expui/run/run.svg"/>
+    <replacePath path="/icons/expui/run/run_stroke.svg"/>
+    <replacePath path="/icons/expui/run/threadRunning.svg"/>
+    <replacePath path="/icons/expui/run/widget/run.svg"/>
+    <replacePath path="/icons/expui/testUnit/testUnitRunConfiguration.svg"/>
+    <replacePath path="/icons/expui/toolwindows/run.svg"/>
+    <replacePath path="/icons/run/runCurrent.svg"/>
+    <replacePath path="/icons/run/runJob.svg"/>
+    <replacePath path="/icons/runApplication.svg"/>
+    <replacePath path="/icons/sparkRun.svg"/>
+    <replacePath path="/icons/testUnit/testUnitRunConfiguration.svg"/>
+    <replacePath path="/javaee/cdi/newui/scheduledEventRun.svg"/>
+    <replacePath path="/javaee/cdi/newui/scheduledEventRun@14x14.svg"/>
+    <replacePath path="/runConfigurations/testState/run.svg"/>
+    <replacePath path="/toolwindows/toolWindowRun.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/run@20x20.svg">
+    <replacePath path="/icons/expui/toolwindows/run@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/run@14x14.svg">
+    <replacePath path="/icons/expui/gutter/run.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/runAll.svg">
+    <replacePath path="/actions/runAll.svg"/>
+    <replacePath path="/icons/expui/actions/runAll.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/runAnything.svg">
+    <replacePath path="/actions/run_anything.svg"/>
+    <replacePath path="/actions/runAnything.svg"/>
+    <replacePath path="/debugger/toolConsole.svg"/>
+    <replacePath path="/icons/expui/breakpoints/toolConsole.svg"/>
+    <replacePath path="/icons/expui/debugger/toolConsole.svg"/>
+    <replacePath path="/icons/expui/general/runAnything.svg"/>
+    <replacePath path="/icons/expui/ruby/rbenvRunAnything.svg"/>
+    <replacePath path="/icons/expui/ruby/rvmRunAnything.svg"/>
+    <replacePath path="/icons/expui/run/toolConsole.svg"/>
+    <replacePath path="/icons/rbenvRunAnything.svg"/>
+    <replacePath path="/icons/ruby/rbenvRunAnything.svg"/>
+    <replacePath path="/icons/ruby/rvmRunAnything.svg"/>
+    <replacePath path="/icons/rvmRunAnything.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/runToCursor.svg">
+    <replacePath path="/actions/runToCursor.svg"/>
+    <replacePath path="/debugger/actions/force_run_to_cursor.svg"/>
+    <replacePath path="/debugger/force_run_to_cursor.svg"/>
+    <replacePath path="/icons/expui/breakpoints/force_run_to_cursor.svg"/>
+    <replacePath path="/icons/expui/run/forceRunToCursor.svg"/>
+    <replacePath path="/icons/expui/run/runToCursor.svg"/>
+    <replacePath path="/javaee/jsf/navigationRule.svg"/>
+    <replacePath path="/javaee/jsf/newui/navigationRule.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/runWithCoverage.svg">
+    <replacePath path="/general/runWithCoverage.svg"/>
+    <replacePath path="/icons/expui/run/runWithCoverage.svg"/>
+    <replacePath path="/icons/expui/toolwindows/toolWindowRunWithCoverage.svg"/>
+    <replacePath path="/runConfigurations/withCoverageLayer.svg"/>
+    <replacePath path="/toolwindows/toolWindowRunWithCoverage.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/runWithCoverage@20x20.svg">
+    <replacePath path="/icons/expui/toolwindows/toolWindowRunWithCoverage@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/save.svg">
+    <replacePath path="/actions/menu-saveall.svg"/>
+    <replacePath path="/icons/expui/general/save.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/screenOn.svg">
+    <replacePath path="/codeWithMe/cwmScreenInBrowserOn.svg"/>
+    <replacePath path="/codeWithMe/cwmScreenOn.svg"/>
+    <replacePath path="/icons/expui/codeWithMe/cwmScreenInBrowserOn.svg"/>
+    <replacePath path="/icons/expui/codeWithMe/cwmScreenOn.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/screenOff.svg">
+    <replacePath path="/codeWithMe/cwmScreenInBrowserOff.svg"/>
+    <replacePath path="/codeWithMe/cwmScreenOff.svg"/>
+    <replacePath path="/icons/expui/codeWithMe/cwmScreenInBrowserOff.svg"/>
+    <replacePath path="/icons/expui/codeWithMe/cwmScreenOff.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/scope.svg">
+    <replacePath path="/icons/expui/ide/localScope.svg"/>
+    <replacePath path="/ide/localScope.svg"/>
+    <replacePath path="/ide/localScopeAction.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/scrollDown.svg">
+    <replacePath path="/icons/expui/general/scrollDown.svg"/>
+    <replacePath path="/runConfigurations/scroll_down.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/scrollUp.svg">
+    <replacePath path="/icons/expui/general/scrollUp.svg"/>
+    <replacePath path="/runConfigurations/scroll_up.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/search.svg">
+    <replacePath path="/actions/find.svg"/>
+    <replacePath path="/actions/findEntireFile.svg"/>
+    <replacePath path="/actions/findWhite.svg"/>
+    <replacePath path="/actions/menu-find.svg"/>
+    <replacePath path="/actions/search.svg"/>
+    <replacePath path="/icons/expui/general/search.svg"/>
+    <replacePath path="/icons/expui/windows/searchField.svg"/>
+    <replacePath path="/javaee/cdi/gutter/configurationScan.svg"/>
+    <replacePath path="/javaee/cdi/newui/configurationScan.svg"/>
+    <replacePath path="/javaee/cdi/newui/configurationScan@14x14.svg"/>
+    <replacePath path="/icons/analyzer_icon.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/search@20x20.svg">
+    <replacePath path="/icons/expui/general/search@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/searchWithHistory.svg">
+    <replacePath path="/actions/searchWithHistory.svg"/>
+    <replacePath path="/actions/searchWithHistoryHovered.svg"/>
+    <replacePath path="/icons/expui/inline/searchHistory.svg"/>
+    <replacePath path="/icons/expui/inline/searchHistoryHovered.svg"/>
+    <replacePath path="/inline/searchHistory.svg"/>
+    <replacePath path="/inline/searchHistoryHovered.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/searchEverywhere.svg">
+    <replacePath path="/general/searchEverywhereGear.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/self.svg">
+    <replacePath path="/debugger/selfreference.svg"/>
+    <replacePath path="/icons/expui/breakpoints/selfreference.svg"/>
+    <replacePath path="/icons/expui/debugger/selfReference.svg"/>
+    <replacePath path="/icons/expui/run/selfreference.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/send.svg">
+    <replacePath path="/actions/commit.svg"/>
+    <replacePath path="/icons/expui/vcs/commit.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/server.svg">
+    <replacePath path="/icons/expui/toolwindows/webServer.svg"/>
+    <replacePath path="/icons/expui/webReferences/server.svg"/>
+    <replacePath path="/nodes/servlet.svg"/>
+    <replacePath path="/toolwindows/webToolWindow.svg"/>
+    <replacePath path="/webreferences/server.svg"/>
+    <replacePath path="/remote/serversToolWindow.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/server@20x20.svg">
+    <replacePath path="/icons/expui/toolwindows/webServer@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/server@14x14.svg">
+    <replacePath path="/icons/expui/gutter/java9Service.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/services.svg">
+    <replacePath path="/icons/expui/runConfiguration.svg"/>
+    <replacePath path="/icons/expui/toolwindows/services.svg"/>
+    <replacePath path="/icons/newui/services.svg"/>
+    <replacePath path="/icons/runConfiguration.svg"/>
+    <replacePath path="/icons/services.svg"/>
+    <replacePath path="/nodes/services.svg"/>
+    <replacePath path="/toolwindows/toolWindowServices.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/services@20x20.svg">
+    <replacePath path="/icons/expui/toolwindows/services@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/shell.svg">
+    <replacePath path="/buildTools/buildToolTask.svg"/>
+    <replacePath path="/debugger/console.svg"/>
+    <replacePath path="/debugger/evaluateExpression.svg"/>
+    <replacePath path="/icons/expui/build/task.svg"/>
+    <replacePath path="/icons/expui/debugger/evaluateExpression.svg"/>
+    <replacePath path="/icons/expui/run/console.svg"/>
+    <replacePath path="/icons/expui/run/evaluateExpression.svg"/>
+    <replacePath path="/icons/expui/toolwindow/task.svg"/>
+    <replacePath path="/icons/expui/toolwindow/terminal.svg"/>
+    <replacePath path="/icons/remoteToolSet.svg"/>
+    <replacePath path="/icons/task.svg"/>
+    <replacePath path="/icons/terminal/OpenTerminal.svg"/>
+    <replacePath path="/icons/terminal/OpenTerminal_13x13.svg"/>
+    <replacePath path="/icons/terminal/shFile.svg"/>
+    <replacePath path="/javaee/jpaConsoleToolWindow.svg"/>
+    <replacePath path="/javaee/newui/jpaConsoleToolWindow.svg"/>
+    <replacePath path="/nodes/console.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/shell@20x20.svg">
+    <replacePath path="/icons/expui/toolwindow/task@20x20.svg"/>
+    <replacePath path="/icons/expui/toolwindow/terminal@20x20.svg"/>
+    <replacePath path="/icons/terminal/OpenTerminal_13x13@20x20.svg"/>
+    <replacePath path="/javaee/newui/jpaConsoleToolWindow@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/shelve.svg">
+    <replacePath path="/icons/expui/vcs/shelve.svg"/>
+    <replacePath path="/icons/expui/vcs/stash.svg"/>
+    <replacePath path="/vcs/Shelve.svg"/>
+    <replacePath path="/vcs/Stash.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/showToOverride.svg">
+    <replacePath path="/icons/expui/gutter/overridingMethod.svg"/>
+    <replacePath path="/icons/expui/gutter/showToOverride.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/skip.svg">
+    <replacePath path="/icons/expui/build/toggleSkipTestsMode.svg"/>
+    <replacePath path="/icons/expui/run/testSkipped.svg"/>
+    <replacePath path="/icons/expui/vcs/new/skipCommit.svg"/>
+    <replacePath path="/icons/expui/vcs/new/skipCommit_stroke.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/success.svg">
+    <replacePath path="/general/successLogin.svg"/>
+    <replacePath path="/icons/expui/general/successLogin.svg"/>
+    <replacePath path="/icons/expui/status/success.svg"/>
+    <replacePath path="/javaee/jsf/validator.svg"/>
+    <replacePath path="/javaee/jsf/newui/validator.svg"/>
+    <replacePath path="/status/success.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/success@14x14.svg">
+    <replacePath path="/icons/expui/gutter/runSuccess.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/success@28x28.svg">
+    <replacePath path="/icons/expui/general/successDialog.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/selectAll.svg">
+    <replacePath path="/actions/selectall.svg"/>
+    <replacePath path="/icons/expui/actions/selectAll.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/scan.svg">
+    <replacePath path="/debugger/memoryView/classTracked.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/share.svg">
+    <replacePath path="/actions/share.svg"/>
+    <replacePath path="/codeWithMe/cwmShared.svg"/>
+    <replacePath path="/icons/expui/ide/sharedScope.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/separator.svg">
+    <replacePath path="/general/separatorH.svg"/>
+    <replacePath path="/icons/expui/general/separatorH.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/shortcutFilter.svg">
+    <replacePath path="/actions/shortcutFilter.svg"/>
+    <replacePath path="/icons/expui/actions/shortcutFilter.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/showChanges.svg">
+    <replacePath path="/actions/showChangesOnly.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/showImportStatements.svg">
+    <replacePath path="/actions/showImportStatements.svg"/>
+    <replacePath path="/icons/expui/actions/showImportStatements.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/sidePane.svg">
+    <replacePath path="/actions/previewDetails.svg"/>
+    <replacePath path="/icons/expui/general/previewVertically.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/skull.svg">
+    <replacePath path="/debugger/killProcess.svg"/>
+    <replacePath path="/icons/expui/killDataSourceProcess.svg"/>
+    <replacePath path="/icons/expui/run/killProcess.svg"/>
+    <replacePath path="/icons/killDataSourceProcess.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/sortAlphabetically.svg">
+    <replacePath path="/icons/expui/objectBrowser/sortAlphabetically.svg"/>
+    <replacePath path="/ide/lookupAlphanumeric.svg"/>
+    <replacePath path="/objectBrowser/sortAlphabetically.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/sortAsc.svg">
+    <replacePath path="/actions/sortAsc.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/sort.svg">
+    <replacePath path="/actions/sortDesc.svg"/>
+    <replacePath path="/icons/expui/objectBrowser/sortByType.svg"/>
+    <replacePath path="/icons/expui/runConfigurations/sortByDuration.svg"/>
+    <replacePath path="/icons/expui/sortHistory.svg"/>
+    <replacePath path="/icons/sortHistory.svg"/>
+    <replacePath path="/nodes/sortBySeverity.svg"/>
+    <replacePath path="/objectBrowser/sortByType.svg"/>
+    <replacePath path="/objectBrowser/sortedByUsage.svg"/>
+    <replacePath path="/runConfigurations/sortByDuration.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/sortByUsage.svg">
+    <replacePath path="/icons/expui/objectBrowser/sortByUsage.svg"/>
+    <replacePath path="/ide/lookupRelevance.svg"/>
+    <replacePath path="/objectBrowser/sortByUsage.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/spellcheck.svg">
+    <replacePath path="/icons/spellcheck.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/squares.svg">
+    <replacePath path="/debugger/frame.svg"/>
+    <replacePath path="/debugger/showCurrentFrame.svg"/>
+    <replacePath path="/debugger/stackFrame.svg"/>
+    <replacePath path="/icons/batch.svg"/>
+    <replacePath path="/icons/batchToolWindow.svg"/>
+    <replacePath path="/icons/expui/breakpoints/showCurrentFrame.svg"/>
+    <replacePath path="/icons/expui/breakpoints/stackFrame.svg"/>
+    <replacePath path="/icons/expui/debugger/frame.svg"/>
+    <replacePath path="/icons/expui/run/showCurrentFrame.svg"/>
+    <replacePath path="/icons/expui/run/stackFrame.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/stack.svg">
+    <replacePath path="/graph/layout.svg"/>
+    <replacePath path="/icons/expui/image/layout.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/star.svg">
+    <replacePath path="/favorite.svg"/>
+    <replacePath path="/icons/expui/toolwindows/favorites.svg"/>
+    <replacePath path="/icons/favicon.svg"/>
+    <replacePath path="/icons/favorite.svg"/>
+    <replacePath path="/icons/relevantProposal.svg"/>
+    <replacePath path="/ide/feedbackRating.svg"/>
+    <replacePath path="/ide/feedbackRatingFocused.svg"/>
+    <replacePath path="/ide/feedbackRatingFocusedOn.svg"/>
+    <replacePath path="/ide/feedbackRatingOn.svg"/>
+    <replacePath path="/ide/feedbackRatingOnFocused.svg"/>
+    <replacePath path="/nodes/favorite.svg"/>
+    <replacePath path="/nodes/favoriteOnHover.svg"/>
+    <replacePath path="/toolwindows/toolWindowFavorites.svg"/>
+    <replacePath path="/vcs/favorite.svg"/>
+    <replacePath path="/vcs/favoriteOnHover.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/star@20x20.svg">
+    <replacePath path="/icons/expui/toolwindows/favorites@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/status.svg">
+    <replacePath path="/actions/fileStatus.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/stepInto.svg">
+    <replacePath path="/actions/traceInto.svg"/>
+    <replacePath path="/debugger/actions/force_step_into.svg"/>
+    <replacePath path="/debugger/force_step_into.svg"/>
+    <replacePath path="/debugger/smartStepInto.svg"/>
+    <replacePath path="/icons/expui/breakpoints/smartStepInto.svg"/>
+    <replacePath path="/icons/expui/debugger/forceStepInto.svg"/>
+    <replacePath path="/icons/expui/run/forceStepInto.svg"/>
+    <replacePath path="/icons/expui/run/stepInto.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/stepOut.svg">
+    <replacePath path="/actions/stepOut.svg"/>
+    <replacePath path="/actions/stepOutCodeBlock.svg"/>
+    <replacePath path="/icons/expui/run/stepOut.svg"/>
+    <replacePath path="/icons/expui/run/stepOutCodeBlock.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/stepOver.svg">
+    <replacePath path="/actions/traceOver.svg"/>
+    <replacePath path="/debugger/actions/force_step_over.svg"/>
+    <replacePath path="/debugger/force_step_over.svg"/>
+    <replacePath path="/debugger/smartStepOver.svg"/>
+    <replacePath path="/icons/expui/breakpoints/smartStepOver.svg"/>
+    <replacePath path="/icons/expui/debugger/forceStepOver.svg"/>
+    <replacePath path="/icons/expui/run/forceStepOver.svg"/>
+    <replacePath path="/icons/expui/run/stepOver.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/stop.svg">
+    <replacePath path="/actions/suspend.svg"/>
+    <replacePath path="/actions/suspend_stroke.svg"/>
+    <replacePath path="/icons/expui/progress/stop.svg"/>
+    <replacePath path="/icons/expui/run/stop.svg"/>
+    <replacePath path="/icons/expui/run/stopColored.svg"/>
+    <replacePath path="/icons/expui/run/stop_stroke.svg"/>
+    <replacePath path="/icons/expui/run/widget/stop.svg"/>
+    <replacePath path="/icons/expui/vcs/abort.svg"/>
+    <replacePath path="/icons/expui/vcs/abort_stroke.svg"/>
+    <replacePath path="/ide/macro/recording_stop.svg"/>
+    <replacePath path="/process/stop.svg"/>
+    <replacePath path="/process/stopHovered.svg"/>
+    <replacePath path="/process/stopSmallHovered.svg"/>
+    <replacePath path="/process/stopSmall.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/stopCircle.svg">
+    <replacePath path="/debugger/threadStates/idle.svg"/>
+    <replacePath path="/debugger/threadSuspended.svg"/>
+    <replacePath path="/icons/expui/breakpoints/threadSuspended.svg"/>
+    <replacePath path="/icons/expui/debugger/threadSuspended.svg"/>
+    <replacePath path="/icons/expui/run/threadSuspended.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/stopRefresh.svg">
+    <replacePath path="/actions/stopRefresh.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/structure.svg">
+    <replacePath path="/icons/dataStructure.svg"/>
+    <replacePath path="/icons/expui/toolwindows/structure.svg"/>
+    <replacePath path="/toolwindows/toolWindowStructure.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/structure@20x20.svg">
+    <replacePath path="/icons/expui/toolwindows/structure@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/swap.svg">
+    <replacePath path="/actions/swapPanels.svg"/>
+    <replacePath path="/diff/arrowLeftRight.svg"/>
+    <replacePath path="/icons/expui/actions/swapPanels.svg"/>
+    <replacePath path="/icons/expui/diff/arrowLeftRight.svg"/>
+    <replacePath path="/javaee/jsf/converter.svg"/>
+    <replacePath path="/javaee/jsf/newui/converter.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/sync.svg">
+    <replacePath path="/actions/forceRefresh.svg"/>
+    <replacePath path="/actions/synchronizeFS.svg"/>
+    <replacePath path="/icons/expui/actions/forceRefresh.svg"/>
+    <replacePath path="/icons/expui/toolwindows/settingSync.svg"/>
+    <replacePath path="/icons/forceRefresh.svg"/>
+    <replacePath path="/icons/newui/refreshKubernetesConfiguration.svg"/>
+    <replacePath path="/icons/org/jetbrains/kotlin/idea/icons/expui/loadScriptConfiguration.svg"/>
+    <replacePath path="/icons/refreshKubernetesConfiguration.svg"/>
+    <replacePath path="/images/updateFolders.svg"/>
+    <replacePath path="/toolwindows/settingSync.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/sync@20x20.svg">
+    <replacePath path="/icons/expui/toolwindows/settingSync@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/syncScrolling.svg">
+    <replacePath path="/actions/syncPanels.svg"/>
+    <replacePath path="/actions/synchronizeScrolling.svg"/>
+    <replacePath path="/icons/expui/actions/synchronizeScrolling.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/tag.svg">
+    <replacePath path="/icons/currentBranchLabel.svg"/>
+    <replacePath path="/icons/expui/vcs/currentBranch.svg"/>
+    <replacePath path="/icons/expui/vcs/label.svg"/>
+    <replacePath path="/icons/expui/vcs/new/branchLabel.svg"/>
+    <replacePath path="/icons/expui/vcs/new/currentBranchLabel.svg"/>
+    <replacePath path="/icons/labels_gutter.svg"/>
+    <replacePath path="/icons/newui/labelsGutter.svg"/>
+    <replacePath path="/icons/setLabel.svg"/>
+    <replacePath path="/modules/setPackagePrefix.svg"/>
+    <replacePath path="/modules/setPackagePrefixRollover.svg"/>
+    <replacePath path="/other/branchLabel.svg"/>
+    <replacePath path="/vcs/new/currentBranchLabel.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/table.svg">
+    <replacePath path="/icons/expui/toolwindows/toolWindowDataView.svg"/>
+    <replacePath path="/nodes/DataTables.svg"/>
+    <replacePath path="/toolwindows/toolWindowDataView.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/table@20x20.svg">
+    <replacePath path="/icons/expui/toolwindows/toolWindowDataView@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/table@14x14.svg">
+    <replacePath path="/icons/expui/gutter/dataSchema.svg"/>
+    <replacePath path="/gutter/dataSchema.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/test.svg">
+    <replacePath path="/icons/expui/nodes/test.svg"/>
+    <replacePath path="/icons/expui/runConfigurations/junit.svg"/>
+    <replacePath path="/nodes/test.svg"/>
+    <replacePath path="/runConfigurations/junit.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/thread.svg">
+    <replacePath path="/debugger/threads.svg"/>
+    <replacePath path="/icons/expui/breakpoints/threads.svg"/>
+    <replacePath path="/icons/expui/debugger/threads.svg"/>
+    <replacePath path="/icons/expui/run/threadGroup.svg"/>
+    <replacePath path="/icons/expui/run/threadGroupCurrent.svg"/>
+    <replacePath path="/icons/expui/run/threads.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/todoDefault.svg">
+    <replacePath path="/general/todoDefault.svg"/>
+    <replacePath path="/icons/expui/toolwindows/todo.svg"/>
+    <replacePath path="/toolwindows/toolWindowTodo.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/todoDefault@20x20.svg">
+    <replacePath path="/icons/expui/toolwindows/todo@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/todoImportant.svg">
+    <replacePath path="/general/todoImportant.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/todoQuestion.svg">
+    <replacePath path="/general/todoQuestion.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/tools.svg">
+    <replacePath path="/icons/expui/ide/configFile.svg"/>
+    <replacePath path="/icons/expui/toolwindows/toolWindowInternal.svg"/>
+    <replacePath path="/ide/configFile.svg"/>
+    <replacePath path="/nodes/keymapTools.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/tools@20x20.svg">
+    <replacePath path="/icons/expui/toolwindows/toolWindowInternal@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/topLeft.svg">
+    <replacePath path="/icons/expui/actions/moveToLeftTop.svg"/>
+    <replacePath path="/icons/expui/actions/moveToTopLeft.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/topRight.svg">
+    <replacePath path="/icons/expui/actions/moveToRightTop.svg"/>
+    <replacePath path="/icons/expui/actions/moveToTopRight.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/translate.svg">
+    <replacePath path="/general/localization.svg"/>
+    <replacePath path="/general/localizationSettings.svg"/>
+    <replacePath path="/toolbar/locale.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/trash.svg">
+    <replacePath path="/actions/gc.svg"/>
+    <replacePath path="/icons/expui/general/delete.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/tree.svg">
+    <replacePath path="/actions/showAsTree.svg"/>
+    <replacePath path="/general/tree.svg"/>
+    <replacePath path="/general/treeHovered.svg"/>
+    <replacePath path="/general/treeSelected.svg"/>
+    <replacePath path="/icons/expui/general/showAsTree.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/typo.svg">
+    <replacePath path="/general/inspectionsTypos.svg"/>
+    <replacePath path="/icons/expui/general/inspections/inspectionsTypos.svg"/>
+    <replacePath path="/icons/expui/general/inspectionsTypos.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/uiDesigner.svg">
+    <replacePath path="/icons/expui/toolwindows/uiDesigner.svg"/>
+    <replacePath path="/toolwindows/toolWindowUIDesigner.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/uiDesigner@20x20.svg">
+    <replacePath path="/icons/expui/toolwindows/uiDesigner@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/up.svg">
+    <replacePath path="/actions/findAndShowPrevMatches.svg"/>
+    <replacePath path="/actions/findAndShowPrevMatchesSelected.svg"/>
+    <replacePath path="/actions/moveUp.svg"/>
+    <replacePath path="/actions/previousOccurence.svg"/>
+    <replacePath path="/icons/expui/general/moveUp.svg"/>
+    <replacePath path="/icons/expui/general/up.svg"/>
+    <replacePath path="/icons/proposalUp.svg"/>
+    <replacePath path="/toolbarDecorator/moveUp.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/undeploy.svg">
+    <replacePath path="/actions/undeploy.svg"/>
+    <replacePath path="/icons/expui/actions/undeploy.svg"/>
+    <replacePath path="/nodes/undeploy.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/undo.svg">
+    <replacePath path="/actions/undo.svg"/>
+    <replacePath path="/icons/expui/general/undo.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/uninstall.svg">
+    <replacePath path="/actions/uninstall.svg"/>
+    <replacePath path="/general/uninstallPlugin.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/unique@14x14.svg">
+    <replacePath path="/icons/expui/gutter/unique.svg"/>
+    <replacePath path="/gutter/unique.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/unlock.svg">
+    <replacePath path="/icons/expui/general/unlocked.svg"/>
+    <replacePath path="/ide/readwrite.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/unpin.svg">
+    <replacePath path="/general/autohideOff.svg"/>
+    <replacePath path="/general/autohideOffInactive.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/unselect.svg">
+    <replacePath path="/actions/unselectall.svg"/>
+    <replacePath path="/icons/expui/actions/unselectAll.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/unshare.svg">
+    <replacePath path="/actions/unshare.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/unshelve.svg">
+    <replacePath path="/icons/expui/vcs/unshelve.svg"/>
+    <replacePath path="/vcs/Unshelve.svg"/>
+    <replacePath path="/vcs/unshelveSilent.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/upload.svg">
+    <replacePath path="/actions/upload.svg"/>
+    <replacePath path="/icons/expui/general/upload.svg"/>
+    <replacePath path="/icons/expui/vcs/changesPush@12x12.svg"/>
+    <replacePath path="/icons/expui/vcs/new/changesPush@12x12.svg"/>
+    <replacePath path="/icons/expui/vcs/new/outgoingPush.svg"/>
+    <replacePath path="/javaee/cdi/gutter/publisher.svg"/>
+    <replacePath path="/vcs/new/changesPush@12x12.svg"/>
+    <replacePath path="/webDeployment/upload.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/user.svg">
+    <replacePath path="/general/user.svg"/>
+    <replacePath path="/icons/expui/general/user.svg"/>
+    <replacePath path="/icons/expui/user.svg"/>
+    <replacePath path="/icons/gutter/user.svg"/>
+    <replacePath path="/icons/user.svg"/>
+    <replacePath path="/modules/types/userDefined.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/users.svg">
+    <replacePath path="/codeWithMe/cwmAccess.svg"/>
+    <replacePath path="/codeWithMe/cwmLogoToolbar.svg"/>
+    <replacePath path="/icons/expui/codeWithMe/cwmAccess.svg"/>
+    <replacePath path="/icons/expui/general/addAccount.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/users@20x20.svg">
+    <replacePath path="/icons/expui/codeWithMe/cwmAccess@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/usersOff.svg">
+    <replacePath path="/codeWithMe/cwmAccessOff.svg"/>
+    <replacePath path="/icons/expui/codeWithMe/cwmAccessOff.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/usersOn.svg">
+    <replacePath path="/codeWithMe/cwmAccessOn.svg"/>
+    <replacePath path="/icons/expui/codeWithMe/cwmAccessOn.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/valid.svg">
+    <replacePath path="/actions/checked.svg"/>
+    <replacePath path="/actions/checked_selected.svg"/>
+    <replacePath path="/actions/valid.svg"/>
+    <replacePath path="/codeWithMe/cwmVerified.svg"/>
+    <replacePath path="/debugger/threadCurrent.svg"/>
+    <replacePath path="/general/greenCheckmark.svg"/>
+    <replacePath path="/general/inspectionsOK.svg"/>
+    <replacePath path="/general/inspectionsOKEmpty.svg"/>
+    <replacePath path="/icons/expui/actions/checked.svg"/>
+    <replacePath path="/icons/expui/breakpoints/threadCurrent.svg"/>
+    <replacePath path="/icons/expui/codeWithMe/cwmVerified.svg"/>
+    <replacePath path="/icons/expui/debugger/threadCurrent.svg"/>
+    <replacePath path="/icons/expui/general/greenCheckmark.svg"/>
+    <replacePath path="/icons/expui/general/inspections/inspectionsOK.svg"/>
+    <replacePath path="/icons/expui/general/inspections/inspectionsOKEmpty.svg"/>
+    <replacePath path="/icons/expui/general/inspectionsOK.svg"/>
+    <replacePath path="/icons/expui/general/inspectionsOKEmpty.svg"/>
+    <replacePath path="/icons/expui/run/threadCurrent.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/validSmall.svg">
+    <replacePath path="/actions/checked_small.svg"/>
+    <replacePath path="/actions/checked_small_selected.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/variable.svg">
+    <replacePath path="/general/pathVariables.svg"/>
+    <replacePath path="/icons/expui/toolwindows/toolWindowVariableView.svg"/>
+    <replacePath path="/icons/expui/variables.svg"/>
+    <replacePath path="/runConfigurations/variables.svg"/>
+    <replacePath path="/toolwindows/toolWindowVariableView.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/variable@20x20.svg">
+    <replacePath path="/icons/expui/toolwindows/toolWindowVariableView@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/variables.svg">
+    <replacePath path="/debugger/variablesTab.svg"/>
+    <replacePath path="/general/inlineVariables.svg"/>
+    <replacePath path="/general/inlineVariablesHover.svg"/>
+    <replacePath path="/icons/expui/breakpoints/variablesTab.svg"/>
+    <replacePath path="/icons/expui/debugger/variablesTab.svg"/>
+    <replacePath path="/icons/expui/inline/variables.svg"/>
+    <replacePath path="/icons/expui/inline/variablesHover.svg"/>
+    <replacePath path="/icons/expui/run/variablesTab.svg"/>
+    <replacePath path="/inline/variables.svg"/>
+    <replacePath path="/inline/variablesHover.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/verified.svg">
+    <replacePath path="/actions/setDefault.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/verticalSplit.svg">
+    <replacePath path="/actions/splitVertically.svg"/>
+    <replacePath path="/general/splitCenterV.svg"/>
+    <replacePath path="/icons/expui/actions/split.svg"/>
+    <replacePath path="/icons/expui/general/splitVertically.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/videoOn.svg">
+    <replacePath path="/codeWithMe/cwmCamAvatarOn.svg"/>
+    <replacePath path="/codeWithMe/cwmCamOn.svg"/>
+    <replacePath path="/icons/expui/codeWithMe/cwmCamAvatarOn.svg"/>
+    <replacePath path="/icons/expui/codeWithMe/cwmCamOn.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/videoOff.svg">
+    <replacePath path="/codeWithMe/cwmCamAvatarOff.svg"/>
+    <replacePath path="/codeWithMe/cwmCamOff.svg"/>
+    <replacePath path="/icons/expui/codeWithMe/cwmCamAvatarOff.svg"/>
+    <replacePath path="/icons/expui/codeWithMe/cwmCamOff.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/viewBreakpoints.svg">
+    <replacePath path="/debugger/viewBreakpoints.svg"/>
+    <replacePath path="/icons/expui/breakpoints/multipleBreakpoints.svg"/>
+    <replacePath path="/icons/expui/run/viewBreakpoints.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/visualStudio.svg">
+    <replacePath path="/icons/expui/toolwindows/solutionExplorer.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/visualStudio@20x20.svg">
+    <replacePath path="/icons/expui/toolwindows/solutionExplorer@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/warning.svg">
+    <replacePath path="/general/balloonWarning.svg"/>
+    <replacePath path="/general/inspectionsMixed.svg"/>
+    <replacePath path="/general/inspectionsWarning.svg"/>
+    <replacePath path="/general/inspectionsWarningEmpty.svg"/>
+    <replacePath path="/general/notificationWarning.svg"/>
+    <replacePath path="/general/showWarning.svg"/>
+    <replacePath path="/general/warning.svg"/>
+    <replacePath path="/icons/expui/general/inspections/inspectionsMixed.svg"/>
+    <replacePath path="/icons/expui/general/inspections/inspectionsWarning.svg"/>
+    <replacePath path="/icons/expui/general/inspections/inspectionsWarningEmpty.svg"/>
+    <replacePath path="/icons/expui/general/inspectionsMixed.svg"/>
+    <replacePath path="/icons/expui/general/inspectionsWarning.svg"/>
+    <replacePath path="/icons/expui/general/inspectionsWarningEmpty.svg"/>
+    <replacePath path="/icons/expui/status/warning.svg"/>
+    <replacePath path="/ide/warning_notifications.svg"/>
+    <replacePath path="/nodes/warningIntroduction.svg"/>
+    <replacePath path="/status/warning.svg"/>
+    <replacePath path="/toolwindows/toolWindowWarning.svg"/>
+    <replacePath path="/toolwindows/warningEvents.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/warning@14x14.svg">
+    <replacePath path="/icons/expui/gutter/runFailed.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/warning@28x28.svg">
+    <replacePath path="/icons/expui/general/warningDialog.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/watch.svg">
+    <replacePath path="/debugger/db_watch.svg"/>
+    <replacePath path="/debugger/watch.svg"/>
+    <replacePath path="/debugger/watchLastReturnValue.svg"/>
+    <replacePath path="/icons/expui/breakpoints/watchLastReturnValue.svg"/>
+    <replacePath path="/icons/expui/debugger/watch.svg"/>
+    <replacePath path="/icons/expui/debugger/watchLastReturnValue.svg"/>
+    <replacePath path="/icons/expui/run/classLevelWatch.svg"/>
+    <replacePath path="/icons/expui/run/watchLastReturnValue.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/web.svg">
+    <replacePath path="/general/web.svg"/>
+    <replacePath path="/icons/expui/runConfigurations/webApp.svg"/>
+    <replacePath path="/icons/expui/toolwindows/web.svg"/>
+    <replacePath path="/javaee/WebService2.svg"/>
+    <replacePath path="/javaee/WebServiceClient2.svg"/>
+    <replacePath path="/javaee/newui/webArtifact.svg"/>
+    <replacePath path="/javaee/web_artifact.svg"/>
+    <replacePath path="/nodes/ppInvalid.svg"/>
+    <replacePath path="/nodes/ppWeb.svg"/>
+    <replacePath path="/nodes/webFolder.svg"/>
+    <replacePath path="/runConfigurations/web_app.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/web@20x20.svg">
+    <replacePath path="/icons/expui/toolwindows/web@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/widgets.svg">
+    <replacePath path="/icons/expui/gutter/showAutowiredDependencies@12x12.svg"/>
+    <replacePath path="/icons/expui/showAutowiredDependencies.svg"/>
+    <replacePath path="/icons/expui/toolwindows/dependencies.svg"/>
+    <replacePath path="/icons/expui/toolwindows/toolWindowComponents.svg"/>
+    <replacePath path="/icons/gutter/showAutowiredDependencies.svg"/>
+    <replacePath path="/icons/showAutowiredDependencies.svg"/>
+    <replacePath path="/javaee/cdi/gutter/showAutowiredDependencies.svg"/>
+    <replacePath path="/javaee/cdi/newui/showAutowiredDependencies.svg"/>
+    <replacePath path="/javaee/cdi/newui/showAutowiredDependencies@14x14.svg"/>
+    <replacePath path="/javaee/cdi/showAutowiredDependencies.svg"/>
+    <replacePath path="/javaee/javaee_artifact.svg"/>
+    <replacePath path="/javaee/newui/javaeeArtifact.svg"/>
+    <replacePath path="/javaee/jsf/component.svg"/>
+    <replacePath path="/javaee/jsf/newui/component.svg"/>
+    <replacePath path="/resources/icons/dependencies.svg"/>
+    <replacePath path="/resources/icons/expui/dependencies.svg"/>
+    <replacePath path="/icons/artifactSmall.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/widgets@20x20.svg">
+    <replacePath path="/icons/expui/toolwindows/dependencies@20x20.svg"/>
+    <replacePath path="/icons/expui/toolwindows/toolWindowComponents@20x20.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/windows.svg">
+    <replacePath path="/nodes/windows.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/words.svg">
+    <replacePath path="/actions/words.svg"/>
+    <replacePath path="/actions/wordsHovered.svg"/>
+    <replacePath path="/icons/expui/inline/exactWords.svg"/>
+    <replacePath path="/icons/expui/inline/exactWordsHovered.svg"/>
+    <replacePath path="/inline/exactWords.svg"/>
+    <replacePath path="/inline/exactWordsHovered.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/wordsSelected.svg">
+    <replacePath path="/actions/wordsSelected.svg"/>
+    <replacePath path="/icons/expui/inline/exactWordsSelected.svg"/>
+    <replacePath path="/inline/exactWordsSelected.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/wrap.svg">
+    <replacePath path="/actions/toggleSoftWrap.svg"/>
+    <replacePath path="/icons/editor_actions/Wrap_in_typing.svg"/>
+    <replacePath path="/icons/expui/general/softWrap.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/write.svg">
+    <replacePath path="/actions/showWriteAccess.svg"/>
+    <replacePath path="/icons/expui/actions/showWriteAccess.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/zoomIn.svg">
+    <replacePath path="/general/zoomIn.svg"/>
+    <replacePath path="/graph/zoomIn.svg"/>
+    <replacePath path="/icons/expui/image/zoomIn.svg"/>
+  </iconReplacement>
+
+  <iconReplacement icon="/outline/zoomOut.svg">
+    <replacePath path="/general/zoomOut.svg"/>
+    <replacePath path="/graph/zoomOut.svg"/>
+    <replacePath path="/icons/expui/image/zoomOut.svg"/>
+  </iconReplacement>
+</root>

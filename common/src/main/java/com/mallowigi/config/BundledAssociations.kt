@@ -1,0 +1,150 @@
+/*
+ * The MIT License (MIT)
+ *
+ * Copyright (c) 2015-2024 Elior "Mallowigi" Boukhobza
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+package com.mallowigi.config
+
+import com.intellij.openapi.components.Service
+import com.intellij.openapi.components.service
+import com.mallowigi.icons.associations.*
+import com.mallowigi.icons.services.AssociationsFactory
+import com.mallowigi.models.IconType
+import com.mallowigi.utils.getValue
+
+/** Service for managing bundled [Associations]. */
+@Service(Service.Level.APP)
+class BundledAssociations {
+
+  /** All loaded file [Associations]. */
+  private var defaultFileAssociations: MutableMap<String, Association> = mutableMapOf()
+
+  /** All loaded folder [Associations]. */
+  private var defaultFolderAssociations: MutableMap<String, Association> = mutableMapOf()
+
+  /** All loaded folder open [Associations]. */
+  private var defaultFolderOpenAssociations: MutableMap<String, Association> = mutableMapOf()
+
+  /** Default psi associations. */
+  private var defaultPsiAssociations: MutableMap<String, Association> = mutableMapOf()
+
+  init {
+    init()
+  }
+
+  /**
+   * Get a default [Association] by name and [IconType].
+   *
+   * @param name the name
+   * @param iconType the [IconType]
+   */
+  fun getDefault(name: String, iconType: IconType): Association? = getMap(iconType)[name]
+
+  /**
+   * Get the list of [Association]s.
+   *
+   * @param iconType the [IconType]
+   * @return the list
+   */
+  fun getList(iconType: IconType): List<Association> = getMap(iconType).values.toList()
+
+  /**
+   * Returns the relevant list according to the [IconType].
+   *
+   * @param iconType
+   * @return
+   */
+  fun getMap(iconType: IconType): MutableMap<String, Association> = when (iconType) {
+    IconType.FILE        -> defaultFileAssociations
+    IconType.FOLDER      -> defaultFolderAssociations
+    IconType.FOLDER_OPEN -> defaultFolderOpenAssociations
+    IconType.PSI         -> defaultPsiAssociations
+  }
+
+  /**
+   * Checks if an [Association] is already registered in the defaults.
+   *
+   * @param name assoc name
+   * @param iconType the [IconType]
+   */
+  private fun hasDefault(name: String, iconType: IconType): Boolean = getMap(iconType).containsKey(name)
+
+  /** Load bundled associations. */
+  private fun init() {
+    folderAssociations.getTheAssociations()
+      .filterIsInstance<RegexAssociation>()
+      .forEach { insert(it.name, it, IconType.FOLDER) }
+
+    folderOpenAssociations.getTheAssociations()
+      .filterIsInstance<RegexAssociation>()
+      .forEach { insert(it.name, it, IconType.FOLDER_OPEN) }
+
+    fileAssociations.getTheAssociations()
+      .filterIsInstance<RegexAssociation>()
+      .forEach { insert(it.name, it, IconType.FILE) }
+
+    psiAssociations.getTheAssociations()
+      .filterIsInstance<PsiAssociation>()
+      .forEach { insert(it.name, it, IconType.PSI) }
+  }
+
+  /**
+   * Insert a new default [Association].
+   *
+   * @param name assoc name
+   * @param assoc the [Association]
+   * @param iconType the [IconType]
+   */
+  internal fun insert(name: String, assoc: Association, iconType: IconType) {
+    if (hasDefault(name, iconType)) return
+
+    val map = getMap(iconType)
+
+    map[name] = assoc
+    if (assoc is RegexAssociation) {
+      map[name]?.enabled = (assoc.defaultState != "false") // true
+    } else {
+      map[name]?.enabled = true
+    }
+  }
+
+  companion object {
+    /** Service instance. */
+    val instance: BundledAssociations by lazy { service() }
+
+    /** Load folder associations from XML. */
+    val folderAssociations: DefaultAssociations =
+      AssociationsFactory.create("/iconGenerator/folder_associations.xml")
+
+    /** Load folder open associations from XML. */
+    val folderOpenAssociations: DefaultAssociations =
+      AssociationsFactory.create("/iconGenerator/folder_associations.xml")
+
+    /** Load file associations from XML. */
+    val fileAssociations: DefaultAssociations =
+      AssociationsFactory.create("/iconGenerator/icon_associations.xml")
+
+    /** Load psi associations from XML. */
+    val psiAssociations: DefaultAssociations =
+      AssociationsFactory.create("/iconGenerator/psi_associations.xml")
+  }
+
+}

@@ -1,0 +1,117 @@
+/*
+ * The MIT License (MIT)
+ *
+ * Copyright (c) 2015-2024 Elior "Mallowigi" Boukhobza
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+
+package com.mallowigi.utils
+
+import com.intellij.ide.DataManager
+import com.intellij.ide.plugins.PluginDetailsService
+import com.intellij.ide.projectView.ProjectView
+import com.intellij.ide.ui.LafManager
+import com.intellij.openapi.extensions.PluginId
+import com.intellij.openapi.options.ex.Settings
+import com.intellij.openapi.project.Project
+import com.intellij.openapi.project.ProjectManager
+import com.intellij.ui.ColorUtil
+import com.intellij.ui.JBColor
+import com.intellij.ui.components.ActionLink
+import com.intellij.util.ui.UIUtil
+import com.mallowigi.config.AtomSettingsBundle
+import com.mallowigi.config.AtomSettingsConfig
+import javax.swing.UIManager
+
+const val IMAGE_ICON_PLUGIN = "com.mallowigi.imageicon"
+const val ICON_VIEWER_PLUGIN = "lermitage.intellij.iconviewer"
+val ICON_PLUGINS = setOf(IMAGE_ICON_PLUGIN, ICON_VIEWER_PLUGIN)
+private const val PLUGIN_ID: String = "com.mallowigi"
+
+/** Refresh. */
+fun refresh(project: Project?) {
+  if (project != null) {
+    val view = ProjectView.getInstance(project)
+    if (view != null) {
+      view.refresh()
+      if (view.currentProjectViewPane != null) view.currentProjectViewPane.updateFromRoot(true)
+    }
+  }
+}
+
+/** Refresh opened projects. */
+fun refreshOpenedProjects() {
+  val projects: Array<Project> = ProjectManager.getInstance().openProjects
+  for (project in projects) refresh(project)
+}
+
+/** Get plugin descriptor. */
+@Suppress("UnstableApiUsage")
+fun getPlugin(): PluginDetailsService.PluginDetails? = PluginDetailsService.getInstance().findDetails(getPluginId())
+
+/** Plugin ID. */
+fun getPluginId(): PluginId = PluginId.getId(PLUGIN_ID)
+
+/** Get current plugin version. */
+@Suppress("UnstableApiUsage")
+fun getVersion(): String = getPlugin()?.version ?: AtomSettingsBundle.message("plugin.version")
+
+/** Modified color. */
+fun getModifiedColor(): JBColor = JBColor.namedColor("Tree.modifiedItemForeground", JBColor.BLUE)
+
+/** Replace arrow icons. */
+fun replaceArrowIcons() {
+  val defaults = UIManager.getLookAndFeelDefaults()
+  val arrowsStyle = AtomSettingsConfig.instance.arrowsStyle
+  defaults["Tree.collapsedIcon"] = arrowsStyle.expandIcon
+  defaults["Tree.expandedIcon"] = arrowsStyle.collapseIcon
+  defaults["Tree.collapsedSelectedIcon"] = arrowsStyle.selectedExpandIcon
+  defaults["Tree.expandedSelectedIcon"] = arrowsStyle.selectedCollapseIcon
+}
+
+/** Extract accent color from current theme. */
+@Suppress("HardCodedStringLiteral")
+fun getAccentFromTheme(): String {
+  val namedKey = when (LafManager.getInstance().currentUIThemeLookAndFeel?.name) {
+    "IntelliJ Light" -> "ActionButton.focusedBorderColor"
+    "Light"          -> "ActionButton.focusedBorderColor"
+    "Darcula"        -> "Button.select"
+    else             -> "Link.activeForeground"
+  }
+
+  val namedColor = JBColor.namedColor(
+    namedKey,
+    UIUtil.getButtonSelectColor() ?: UIUtil.getListSelectionForeground(true)
+  )
+  return ColorUtil.toHex(namedColor)
+}
+
+/** Extract themed color from current theme. */
+fun getThemedFromTheme(): String =
+  ColorUtil.toHex(JBColor.namedColor("Tree.foreground", UIUtil.getLabelForeground()))
+
+/** Open a settings page from a link. */
+fun findSettingsPage(link: ActionLink, id: String) {
+  val settings = Settings.KEY.getData(DataManager.getInstance().getDataContext(link))
+  settings?.select(settings.find(id))
+}
+
+@Suppress("UnstableApiUsage")
+fun isPluginEnabled(pluginId: String) = PluginDetailsService.getInstance().isLoaded(PluginId.getId(pluginId))

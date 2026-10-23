@@ -1,0 +1,94 @@
+/*
+ * The MIT License (MIT)
+ *
+ * Copyright (c) 2015-2024 Elior "Mallowigi" Boukhobza
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+package com.mallowigi.icons
+
+import com.intellij.ide.plugins.DynamicPluginListener
+import com.intellij.ide.plugins.IdeaPluginDescriptor
+import com.intellij.ide.ui.LafManager
+import com.intellij.ide.ui.LafManagerListener
+import com.intellij.openapi.application.ApplicationManager
+import com.intellij.openapi.project.DumbAware
+import com.intellij.openapi.project.Project
+import com.intellij.openapi.startup.ProjectActivity
+import com.intellij.util.messages.MessageBusConnection
+import com.intellij.util.SVGLoader
+import com.mallowigi.config.listeners.AtomConfigNotifier
+import com.mallowigi.icons.providers.CacheIconProvider
+import com.mallowigi.icons.services.IconPatchersManager
+import com.mallowigi.icons.svgpatchers.MainSvgPatcher
+import com.mallowigi.utils.SvgLoaderHacker.collectOtherPatcher
+import com.mallowigi.utils.getPluginId
+
+/** Listener for SVG Patchers. */
+class AtomSVGPatchersListener : DynamicPluginListener, ProjectActivity, DumbAware {
+  private var connection: MessageBusConnection? = null
+
+
+  /** Init on plugin loaded. */
+  override fun pluginLoaded(pluginDescriptor: IdeaPluginDescriptor): Unit = initComponent()
+
+  /** Dispose on plugin unloaded. */
+  override fun pluginUnloaded(pluginDescriptor: IdeaPluginDescriptor, isUpdate: Boolean) {
+    if (getPluginId() != pluginDescriptor.pluginId) return
+    disposeComponent()
+  }
+
+  private fun applySvgPatchers() = MainSvgPatcher.instance.applySvgPatchers()
+
+  private fun disposeComponent() {
+    connection?.disconnect()
+    connection = null
+  }
+
+  @Suppress("UnstableApiUsage")
+  private fun initComponent() {
+    if (connection != null) return
+
+    val otherPatcher = collectOtherPatcher()
+    MainSvgPatcher.instance.addPatcher(otherPatcher)
+    SVGLoader.colorPatcherProvider = MainSvgPatcher.instance
+
+    val connect = ApplicationManager.getApplication().messageBus.connect()
+    connection = connect
+
+    with(connect) {
+      subscribe(DynamicPluginListener.TOPIC, this@AtomSVGPatchersListener)
+
+      subscribe(LafManagerListener.TOPIC, LafManagerListener {
+        applySvgPatchers()
+        IconPatchersManager.instance.fixRunIcons()
+      })
+      subscribe(AtomConfigNotifier.TOPIC, AtomConfigNotifier {
+        applySvgPatchers()
+        CacheIconProvider.instance.invalidateIconCache()
+      })
+    }
+
+    ApplicationManager.getApplication().invokeLater { LafManager.getInstance().updateUI() }
+  }
+
+  /** Init on project opened. */
+  override suspend fun execute(project: Project): Unit = initComponent()
+
+}

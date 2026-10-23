@@ -1,0 +1,34 @@
+---
+import { Card, CardGrid, Icon } from '@astrojs/starlight/components';
+import type { StarlightIcon } from '@astrojs/starlight/types';
+---
+
+<section class="section">
+  <h3 class="section-title">Maintained By</h3>
+
+  <CardGrid>
+    <Card title="">
+      <div class="contents">
+        <img src="https://github.com/mallowigi.png?size=192"
+             alt="Mallowigi"
+             class="member-image">
+        <h3 class="member-title">Elior Boukhobza</h3>
+        <h4 class="member-nick">(Mallowigi)</h4>
+        <p class="member-description">Atom Material UI Owner &amp; Software engineer</p>
+
+        <div class="member-links">
+          <div class="links">
+            <a href="https://github.com/mallowigi" target="_blank" rel="noopener" class="link no-icon" aria-label="github">
+              <Icon name="github" class="link no-icon" aria-label="github" />
+            </a>
+
+            <a href="https://www.linkedin.com/in/eliorboukhobza" target="_blank" rel="noopener" class="link no-icon" aria-label="linkedin">
+              <Icon name="linkedin" class="link no-icon" aria-label="linkedin" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </Card>
+  </CardGrid>
+</section>

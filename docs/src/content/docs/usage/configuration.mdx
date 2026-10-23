@@ -1,0 +1,196 @@
+---
+title: Configuration
+description: Detailed configuration options and advanced settings for the Atom Material Icons plugin.
+---
+
+import ImageWrapper from "../../../components/ImageWrapper.astro";
+
+import { Aside, Tabs, TabItem, CardGrid, Card } from "@astrojs/starlight/components";
+
+import img_settings_202_0 from "../../../assets/screens/settings2.png";
+import img_noFileIcons_1 from "../../../assets/screens/noFileIcons.png";
+import img_noFolderIcons_2 from "../../../assets/screens/noFolderIcons.png";
+import img_noPsiIcons_3 from "../../../assets/screens/noPsiIcons.png";
+import img_hollowFolders_4 from "../../../assets/screens/hollowFolders.png";
+import img_hollowDecoratedFolders_5 from "../../../assets/screens/hollowDecoratedFolders.png";
+import img_noIcons_6 from "../../../assets/screens/noIcons.png";
+import img_noFolders_7 from "../../../assets/screens/noFolders.png";
+import img_customThemedColor_8 from "../../../assets/screens/customThemedColor.png";
+import img_bigIcons_9 from "../../../assets/screens/bigIcons.png";
+import img_smallIcons_10 from "../../../assets/screens/smallIcons.png";
+import img_largeRowHeight_11 from "../../../assets/screens/largeRowHeight.png";
+import img_monochrome_12 from "../../../assets/screens/monochrome.png";
+import img_monochrome2_13 from "../../../assets/screens/monochrome2.png";
+import img_saturated_14 from "../../../assets/screens/saturated.png";
+import img_noSaturated_15 from "../../../assets/screens/noSaturated.png";
+import img_darculaArrows_16 from "../../../assets/screens/darculaArrows.png";
+import img_plusMinusArrows_17 from "../../../assets/screens/plusMinusArrows.png";
+import img_arrowsArrows_18 from "../../../assets/screens/arrowsArrows.png";
+import img_circleArrows_19 from "../../../assets/screens/circleArrows.png";
+import img_noArrows_20 from "../../../assets/screens/noArrows.png";
+
+## Atom Material Icons Configuration
+
+Here is a comprehensive guide to the available configuration options for the Atom Material Icons plugin. You can access these settings via *
+*Settings/Preferences** > **Appearance & Behavior** > **Atom Material Icons**.
+
+<ImageWrapper src={img_settings_202_0} alt="settings 2.png" title="Atom Material Icons Settings" />
+
+### Toggle Icons
+
+This section allows you to enable or disable specific categories of icons across the IDE.
+
+- **Enable File Icons**: Replaces default file icons in the Project Tree, lists, and editor tabs.
+- **Enable Folder Icons**: Replaces default folder icons in the Project Tree and lists.
+- **Enable UI Icons**: Replaces various IDE interface icons (e.g., toolbar buttons, tool window icons).
+- **Enable PSI Icons**: Replaces Program Structure Interface (PSI) icons, such as those for classes, interfaces, methods, and variables.
+- **Hollow Folders**: When enabled, folders containing files that are currently open in the editor will appear "hollow," making it easier to
+  identify active directories.
+
+#### Examples
+
+Without File Icons:
+<ImageWrapper src={img_noFileIcons_1} alt="noFileIcons.png" title="Without File Icons" />
+
+Without Folder Icons:
+<ImageWrapper src={img_noFolderIcons_2} alt="noFolderIcons.png" title="Without Folder Icons" />
+
+Without PSI Icons:
+<ImageWrapper src={img_noPsiIcons_3} alt="noPSIIcons.png" title="Without PSI Icons" />
+
+Hollow Folders:
+<ImageWrapper src={img_hollowFolders_4} alt="hollowFolders.png" title="Hollow Folders" />
+
+Hollow Decorated Folders:
+<ImageWrapper src={img_hollowDecoratedFolders_5} alt="hollowDecoratedFolders.png" title="Hollow Decorated Folders" />
+
+---
+
+### Icon Packs
+
+Icon packs provide specialized icon sets for specific technologies and frameworks.
+
+- **Use Ruby PSI Icons**: Uses Ruby-specific PSI icons instead of standard file icons.
+- **Use Rails Custom Icons**: Enables specific icons for Ruby on Rails components (e.g., controllers, jobs, schemas).
+- **Use Angular Icons**: Enables dedicated icons for Angular elements (e.g., components, services).
+- **Use Angular Icons (Old Icon)**: Uses the legacy design for Angular icons.
+- **Use Nest Icons**: Enables specific icons for NestJS components (e.g., controllers, middleware).
+- **Use NextJS Icons**: Enables specific icons for NextJS pages and configurations.
+- **Use Redux Icons**: Enables dedicated icons for Redux elements (e.g., actions, reducers).
+- **Use NgRx Icons**: Enables specific icons for NgRx components (e.g., effects, store).
+- **Use New CSS Icon**: Switches to a modern version of the CSS file icon.
+- **Use Recoil Icons**: Enables specific icons for Recoil atoms and selectors.
+- **Use Tests Icons**: Applies distinct icons to test files to help them stand out from source code.
+
+---
+
+### Hide Icons
+
+If you prefer a more minimalist interface, you can completely hide certain icon types.
+
+- **Hide File Icons**: Removes all file icons from the UI.
+- **Hide Folder Icons**: Removes all folder icons from the UI.
+
+Hide File Icons:
+<ImageWrapper src={img_noIcons_6} alt="hideIcons.png" title="Hide Icons" />
+
+Hide Folder Icons:
+<ImageWrapper src={img_noFolders_7} alt="hideFolderIcons.png" title="Hide Folder Icons" />
+
+---
+
+### Appearance Settings
+
+Fine-tune the visual style of your icons to match your preferred theme.
+
+- **Custom Accent Color**: Overrides the default accent color of the icons with a color of your choice.
+- **Custom Themed Color**: Overrides the primary color of the icons.
+
+Example: Custom Accent and Themed Colors:
+<ImageWrapper src={img_customThemedColor_8} alt="customThemedColor.png" title="Custom Themed Color" />
+
+#### Size and Line Height
+
+- **Custom Icon Size**: Set a custom size for the icons (default is 16).
+- **Custom Line Height**: Set a custom line height in Tree Views (default is 30).
+
+#### Screenshots
+
+Big Icons:
+<ImageWrapper src={img_bigIcons_9} alt="bigIcons.png" title="Custom Icon Size" />
+
+Small Icons:
+<ImageWrapper src={img_smallIcons_10} alt="smallIcons.png" title="Custom Icon Size" />
+
+Large Line Height:
+<ImageWrapper src={img_largeRowHeight_11} alt="largeRowHeight.png" title="Custom Row Height" />
+
+<Aside type="caution">
+  The Custom Line Height have no effect when the Material Theme UI plugin is enabled.
+</Aside>
+
+---
+
+### Other Settings
+
+- **Monochrome Icons**: Set the whole IDE with a Monochrome filter. The color is customizable.
+- **Custom Saturation**: Customize the saturation of the icons (0 is regular, 20 is completely desaturated).
+- **Arrows Style**: Change the style of the arrows in trees. Options include Material, Darcula, Plus-Minus, Arrows, and Circle.
+
+#### Screenshots
+
+Monochrome Icons (Blue):
+<ImageWrapper src={img_monochrome_12} alt="monochrome.png" title="Monochrome Icons (Blue)" />
+
+Monochrome Icons (Orange):
+<ImageWrapper src={img_monochrome2_13} alt="monochrome2.png" title="Monochrome Icons (Orange)" />
+
+Custom Saturation:
+<ImageWrapper src={img_saturated_14} alt="saturated.png" title="Saturated" />
+
+Full Saturation:
+<ImageWrapper src={img_noSaturated_15} alt="noSaturated.png" title="Full Saturation" />
+
+### Arrows Style
+
+Choose between a list of different arrow styles:
+
+- Material: Material Design chevrons
+- Darcula: IntelliJ Darcula triangles
+- Plus-Minus: Plus and Minus signs
+- Arrows: Simple arrows
+- Circle: Arrows inside circles
+- None: Hide arrows
+
+#### Screenshots
+
+Darcula Arrows:
+<ImageWrapper src={img_darculaArrows_16} alt="darculaArrows.png" title="Darcula Style" />
+
+Plus-Minus Arrows:
+<ImageWrapper src={img_plusMinusArrows_17} alt="plusMinusArrows.png" title="Plus-Minus Style" />
+
+Arrows:
+<ImageWrapper src={img_arrowsArrows_18} alt="arrowsArrows.png" title="Arrows Style" />
+
+Circle Arrows:
+<ImageWrapper src={img_circleArrows_19} alt="circleArrows.png" title="Circle Arrows" />
+
+No Arrows:
+<ImageWrapper src={img_noArrows_20} alt="noArrows.png" title="No Arrows" />
+
+---
+
+### Advanced Settings
+
+- **Enable New Icons (WIP)**: Preview the upcoming "New UI" icon set (Work in Progress).
+- **Fix Action Buttons Color**: Ensures action buttons in the toolbar use consistent coloring.
+- **Low Power Mode**: Disables project view decorators to reduce resource usage. **Note:** This should be disabled when using the plugin
+  with JetBrains Gateway.
+- **Disable Icon Indexing**: Turn this setting **OFF** only if you experience IDE crashes that appear related to icon processing.
+
+## What's Next?
+
+Explore advanced customization options:
+
+- [Customization](/usage/customization) - Create advanced icon mappings
