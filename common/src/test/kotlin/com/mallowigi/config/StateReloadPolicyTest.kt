@@ -31,13 +31,18 @@ import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue
 import org.junit.Test
 
-class StateReloadPolicyTest {
+/**
+ * 测试用的最小持久化状态。
+ *
+ * 放在顶层而非嵌套在测试类内：嵌套类名 `StateReloadPolicyTest$SampleState` 会被测试扫描当作测试类执行。
+ * 使用 internal（JVM 层面为 public），保证 XmlSerializer 能反射访问其属性。
+ */
+internal class SampleState {
+  var name: String = ""
+  var items: MutableList<String> = mutableListOf()
+}
 
-  /** 测试用的最小持久化状态。 */
-  class SampleState {
-    var name: String = ""
-    var items: MutableList<String> = mutableListOf()
-  }
+class StateReloadPolicyTest {
 
   private fun sampleState(name: String, vararg items: String) = SampleState().apply {
     this.name = name
